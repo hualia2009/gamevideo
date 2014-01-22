@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<channel>
+		<name>美食</name>
+		<icon></icon>
+		<description></description>
+		<url>http://m.tangdou.com/api/food/1.htm</url>
+	</channel>
+	<channel>
+		<name>时装</name>
+		<icon></icon>
+		<description></description>
+		<url>http://m.tangdou.com/api/fashion/1.htm</url>
+	</channel>
+	<channel>
+		<name>化妆</name>
+		<icon></icon>
+		<description></description>
+		<url>http://m.tangdou.com/api/beauty/1.htm</url>
+	</channel>
+</channels>

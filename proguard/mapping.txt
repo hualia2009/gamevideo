@@ -1,0 +1,2077 @@
+com.leslie.gamevideo.activities.About -> com.leslie.gamevideo.activities.About:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onBackPressed() -> onBackPressed
+com.leslie.gamevideo.activities.Channel -> com.leslie.gamevideo.activities.Channel:
+    android.widget.ListView videoListView -> a
+    android.widget.Button btnHome -> b
+    android.widget.Button btnChannel -> c
+    android.widget.Button btnSearch -> d
+    android.widget.Button btnMore -> e
+    android.widget.Button btnDianYing -> f
+    android.widget.Button btnbtnShiShang -> g
+    android.widget.Button btnTiYu -> h
+    android.widget.Button btnYuLe -> i
+    android.widget.Button btnXinWen -> j
+    android.widget.Button btnDongMan -> k
+    android.widget.Button btnZuiXin -> l
+    android.widget.Button btnHot -> m
+    com.leslie.gamevideo.listener.ChannelBtnListener channelBtnListener -> n
+    android.widget.RelativeLayout channelListLayout -> o
+    android.widget.RelativeLayout netLoading -> p
+    android.widget.RelativeLayout netError -> q
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> r
+    int pageNum -> s
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> a
+    void onBackPressed() -> onBackPressed
+    void onRestart() -> onRestart
+    void onDestroy() -> onDestroy
+    void access$0(com.leslie.gamevideo.activities.Channel) -> a
+com.leslie.gamevideo.activities.Channel$1 -> com.leslie.gamevideo.activities.bo:
+    com.leslie.gamevideo.activities.Channel this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Channel$2 -> com.leslie.gamevideo.activities.bq:
+    com.leslie.gamevideo.activities.Channel this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Detail -> com.leslie.gamevideo.activities.Detail:
+    com.leslie.gamevideo.xml.info.VideoInfo info -> b
+    android.widget.ImageButton btnPlayN -> c
+    android.widget.TextView tvTitle -> d
+    android.widget.TextView tvChannel -> e
+    android.widget.TextView tvPlays -> f
+    android.widget.TextView tvDuration -> g
+    android.widget.TextView shortDesc -> h
+    android.widget.TextView longDesc -> i
+    android.widget.ImageView imgThumb -> j
+    java.lang.String url -> a
+    java.lang.String hUrl -> k
+    com.leslie.gamevideo.db.MainDbHelper dbHelper -> l
+    android.widget.ListView relativeVideoList -> m
+    android.widget.Button btnFav -> n
+    android.os.Handler mHandler -> o
+    com.leslie.gamevideo.thread.ThreadPoolWrap tp -> p
+    java.lang.Runnable relativeVideoTask -> q
+    java.lang.Runnable rDismissmypDialog -> r
+    java.lang.Runnable rPreloadAddHasOne -> s
+    java.lang.Runnable rPreloadAddNetfail -> t
+    java.lang.Runnable rPreloadAddSuccess -> u
+    java.lang.Runnable rPreloadGoLimit -> v
+    java.lang.Runnable rPreloadNoCard -> w
+    java.lang.Runnable rPreloadNoVideo -> x
+    java.lang.Runnable ralertmypDialog -> y
+    android.app.Dialog dialog -> z
+    android.app.Dialog dialog2 -> A
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    android.app.Dialog access$0(com.leslie.gamevideo.activities.Detail) -> a
+    void access$1(com.leslie.gamevideo.activities.Detail,android.app.Dialog) -> a
+    void access$2(com.leslie.gamevideo.activities.Detail,java.lang.String) -> a
+    android.widget.ListView access$4(com.leslie.gamevideo.activities.Detail) -> b
+    com.leslie.gamevideo.xml.info.VideoInfo access$5(com.leslie.gamevideo.activities.Detail) -> c
+    android.os.Handler access$6(com.leslie.gamevideo.activities.Detail) -> d
+    com.leslie.gamevideo.db.MainDbHelper access$7(com.leslie.gamevideo.activities.Detail) -> e
+    android.widget.Button access$8(com.leslie.gamevideo.activities.Detail) -> f
+    android.widget.ImageView access$9(com.leslie.gamevideo.activities.Detail) -> g
+com.leslie.gamevideo.activities.Detail$1 -> com.leslie.gamevideo.activities.af:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$10 -> com.leslie.gamevideo.activities.cb:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.Detail$11 -> com.leslie.gamevideo.activities.by:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$12 -> com.leslie.gamevideo.activities.bx:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.activities.Detail$13 -> com.leslie.gamevideo.activities.ca:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Detail$14 -> com.leslie.gamevideo.activities.bz:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Detail$15 -> com.leslie.gamevideo.activities.cc:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void imageLoaded(android.graphics.Bitmap,java.lang.String) -> a
+com.leslie.gamevideo.activities.Detail$2 -> com.leslie.gamevideo.activities.ae:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$3 -> com.leslie.gamevideo.activities.ad:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$4 -> com.leslie.gamevideo.activities.ac:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$5 -> com.leslie.gamevideo.activities.ab:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$6 -> com.leslie.gamevideo.activities.aa:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$7 -> com.leslie.gamevideo.activities.z:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$8 -> com.leslie.gamevideo.activities.y:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Detail$9 -> com.leslie.gamevideo.activities.x:
+    com.leslie.gamevideo.activities.Detail this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.Favorite -> com.leslie.gamevideo.activities.Favorite:
+    android.widget.ListView favoriteVideoList -> a
+    com.leslie.gamevideo.adapter.CollectListAdatpter adapter -> b
+    com.leslie.gamevideo.db.MainDbHelper dbHelper -> c
+    android.widget.Button deleteButton -> d
+    android.os.Handler handler -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void setEditDisable() -> a
+    void onRestart() -> onRestart
+    void onBackPressed() -> onBackPressed
+    void access$0(com.leslie.gamevideo.activities.Favorite) -> a
+    android.widget.Button access$1(com.leslie.gamevideo.activities.Favorite) -> b
+    com.leslie.gamevideo.adapter.CollectListAdatpter access$2(com.leslie.gamevideo.activities.Favorite) -> c
+com.leslie.gamevideo.activities.Favorite$1 -> com.leslie.gamevideo.activities.n:
+    com.leslie.gamevideo.activities.Favorite this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.activities.Favorite$2 -> com.leslie.gamevideo.activities.o:
+    com.leslie.gamevideo.activities.Favorite this$0 -> a
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo val$videos -> b
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.leslie.gamevideo.activities.Favorite$3 -> com.leslie.gamevideo.activities.p:
+    com.leslie.gamevideo.activities.Favorite this$0 -> a
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo val$videos -> b
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.FeedBack -> com.leslie.gamevideo.activities.FeedBack:
+    android.widget.Button sendMailBtn -> a
+    android.widget.EditText userInfo -> b
+    android.widget.EditText content -> c
+    java.lang.String userInfoStr -> d
+    java.lang.String contentStr -> e
+    java.lang.Runnable runnable -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void onBackPressed() -> onBackPressed
+    java.lang.String access$0(com.leslie.gamevideo.activities.FeedBack) -> a
+    java.lang.String access$1(com.leslie.gamevideo.activities.FeedBack) -> b
+    android.widget.EditText access$2(com.leslie.gamevideo.activities.FeedBack) -> c
+    void access$3(com.leslie.gamevideo.activities.FeedBack,java.lang.String) -> a
+    android.widget.EditText access$4(com.leslie.gamevideo.activities.FeedBack) -> d
+    void access$5(com.leslie.gamevideo.activities.FeedBack,java.lang.String) -> b
+    java.lang.Runnable access$6(com.leslie.gamevideo.activities.FeedBack) -> e
+com.leslie.gamevideo.activities.FeedBack$1 -> com.leslie.gamevideo.activities.bl:
+    com.leslie.gamevideo.activities.FeedBack this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.FeedBack$2 -> com.leslie.gamevideo.activities.bj:
+    com.leslie.gamevideo.activities.FeedBack this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.History -> com.leslie.gamevideo.activities.History:
+    android.widget.ListView historyVideoList -> a
+    com.leslie.gamevideo.adapter.HistoryListAdatpter adapter -> b
+    com.leslie.gamevideo.db.MainDbHelper dbHelper -> c
+    android.widget.LinearLayout history_layout -> d
+    android.widget.Button deleteButton -> e
+    android.widget.Button btnClear -> f
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> g
+    android.os.Handler handler -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void setEditDisable() -> a
+    void onBackPressed() -> onBackPressed
+    void access$0(com.leslie.gamevideo.activities.History) -> a
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo access$1(com.leslie.gamevideo.activities.History) -> b
+    android.widget.Button access$2(com.leslie.gamevideo.activities.History) -> c
+    com.leslie.gamevideo.adapter.HistoryListAdatpter access$3(com.leslie.gamevideo.activities.History) -> d
+    android.widget.LinearLayout access$4(com.leslie.gamevideo.activities.History) -> e
+    android.os.Handler access$5(com.leslie.gamevideo.activities.History) -> f
+com.leslie.gamevideo.activities.History$1 -> com.leslie.gamevideo.activities.q:
+    com.leslie.gamevideo.activities.History this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.activities.History$2 -> com.leslie.gamevideo.activities.r:
+    com.leslie.gamevideo.activities.History this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.leslie.gamevideo.activities.History$3 -> com.leslie.gamevideo.activities.s:
+    com.leslie.gamevideo.activities.History this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.History$4 -> com.leslie.gamevideo.activities.t:
+    com.leslie.gamevideo.activities.History this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.History$4$1 -> com.leslie.gamevideo.activities.u:
+    com.leslie.gamevideo.activities.History$4 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.History$4$2 -> com.leslie.gamevideo.activities.v:
+    com.leslie.gamevideo.activities.History$4 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.History$4$3 -> com.leslie.gamevideo.activities.w:
+    com.leslie.gamevideo.activities.History$4 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.Main -> com.leslie.gamevideo.activities.Main:
+    com.leslie.gamevideo.banner.GalleryFlow gallery -> a
+    android.widget.LinearLayout pointLinear -> b
+    java.util.Timer autoGallery -> c
+    int positon -> d
+    android.widget.Button btnHome -> e
+    android.widget.Button btnChannel -> f
+    android.widget.Button btnSearch -> g
+    android.widget.Button btnMore -> h
+    android.widget.LinearLayout pageFlipper -> i
+    android.widget.ListView listViewVideo -> j
+    android.os.Handler handler -> k
+    android.widget.TextView textView -> l
+    android.widget.RelativeLayout loadMoreLayout -> m
+    android.widget.RelativeLayout galleryLayout -> n
+    android.widget.RelativeLayout homeListLayout -> o
+    com.leslie.gamevideo.adapter.VideoAdapter adapter -> p
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> q
+    android.app.Dialog dialog -> r
+    boolean hasNextPage -> s
+    int pageNum -> t
+    android.widget.RelativeLayout netLoading -> u
+    android.widget.RelativeLayout netError -> v
+    android.widget.RelativeLayout header -> w
+    android.widget.LinearLayout galleryPoint -> x
+    com.leslie.gamevideo.utils.UpdateManager updateManager -> y
+    android.app.ProgressDialog pd -> z
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> a
+    void removeWelLayout() -> b
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onPause() -> onPause
+    void onRestart() -> onRestart
+    void onDestroy() -> onDestroy
+    void onResume() -> onResume
+    void onBackPressed() -> onBackPressed
+    void exit() -> c
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void checkUpdate(boolean) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    com.leslie.gamevideo.banner.GalleryFlow access$0(com.leslie.gamevideo.activities.Main) -> a
+    android.widget.TextView access$1(com.leslie.gamevideo.activities.Main) -> b
+    android.widget.LinearLayout access$2(com.leslie.gamevideo.activities.Main) -> c
+    int access$3(com.leslie.gamevideo.activities.Main) -> d
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo access$4(com.leslie.gamevideo.activities.Main) -> e
+    void access$5(com.leslie.gamevideo.activities.Main,boolean) -> a
+    android.widget.ListView access$6(com.leslie.gamevideo.activities.Main) -> f
+    void access$7(com.leslie.gamevideo.activities.Main,com.leslie.gamevideo.adapter.VideoAdapter) -> a
+    android.os.Handler access$8(com.leslie.gamevideo.activities.Main) -> g
+    android.app.ProgressDialog access$9(com.leslie.gamevideo.activities.Main) -> h
+    com.leslie.gamevideo.utils.UpdateManager access$10(com.leslie.gamevideo.activities.Main) -> i
+    android.widget.RelativeLayout access$11(com.leslie.gamevideo.activities.Main) -> j
+    com.leslie.gamevideo.adapter.VideoAdapter access$12(com.leslie.gamevideo.activities.Main) -> k
+    void access$13(com.leslie.gamevideo.activities.Main,android.widget.RelativeLayout) -> a
+    android.widget.RelativeLayout access$14(com.leslie.gamevideo.activities.Main) -> l
+com.leslie.gamevideo.activities.Main$1 -> com.leslie.gamevideo.activities.ao:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.activities.Main$2 -> com.leslie.gamevideo.activities.aq:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Main$3 -> com.leslie.gamevideo.activities.ap:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Main$4 -> com.leslie.gamevideo.activities.ba:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Main$5 -> com.leslie.gamevideo.activities.bc:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Main$6 -> com.leslie.gamevideo.activities.be:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.Main$7 -> com.leslie.gamevideo.activities.bg:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.Main$9 -> com.leslie.gamevideo.activities.aw:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    boolean val$isFirst -> b
+    void run() -> run
+com.leslie.gamevideo.activities.Main$MyThread -> com.leslie.gamevideo.activities.cf:
+    com.leslie.gamevideo.activities.Main this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.More -> com.leslie.gamevideo.activities.More:
+    android.widget.Button btnHome -> a
+    android.widget.Button btnChannel -> b
+    android.widget.Button btnSearch -> c
+    android.widget.Button btnMore -> d
+    android.widget.Button btnAboutUs -> e
+    android.widget.Button btnShoucang -> f
+    android.widget.Button btnFankui -> g
+    android.widget.Button btnLishi -> h
+    android.widget.LinearLayout scrollView_new -> i
+    android.view.View$OnClickListener btnListener -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    void changeTextColor(android.widget.Button) -> a
+    void onDestroy() -> onDestroy
+    void onRestart() -> onRestart
+    void onBackPressed() -> onBackPressed
+    android.widget.LinearLayout access$0(com.leslie.gamevideo.activities.More) -> a
+    android.widget.Button access$1(com.leslie.gamevideo.activities.More) -> b
+    void access$2(com.leslie.gamevideo.activities.More,android.widget.Button) -> a
+    android.widget.Button access$3(com.leslie.gamevideo.activities.More) -> c
+    android.widget.Button access$4(com.leslie.gamevideo.activities.More) -> d
+    android.widget.Button access$5(com.leslie.gamevideo.activities.More) -> e
+com.leslie.gamevideo.activities.More$1 -> com.leslie.gamevideo.activities.l:
+    com.leslie.gamevideo.activities.More this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Player -> com.leslie.gamevideo.activities.Player:
+    android.widget.VideoView player -> a
+    java.lang.String url -> b
+    java.lang.String TAG -> c
+    android.widget.LinearLayout linearLayBgVideo -> d
+    android.widget.LinearLayout linearLayExit -> e
+    android.widget.LinearLayout playerLoadingLayout -> f
+    android.widget.LinearLayout playerErrorLayout -> g
+    int position -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void onPause() -> onPause
+    void onResume() -> onResume
+    android.widget.LinearLayout access$0(com.leslie.gamevideo.activities.Player) -> a
+    android.widget.LinearLayout access$1(com.leslie.gamevideo.activities.Player) -> b
+    android.widget.LinearLayout access$2(com.leslie.gamevideo.activities.Player) -> c
+com.leslie.gamevideo.activities.Player$1 -> com.leslie.gamevideo.activities.bn:
+    com.leslie.gamevideo.activities.Player this$0 -> a
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+com.leslie.gamevideo.activities.Player$2 -> com.leslie.gamevideo.activities.br:
+    com.leslie.gamevideo.activities.Player this$0 -> a
+    boolean onError(android.media.MediaPlayer,int,int) -> onError
+com.leslie.gamevideo.activities.Player$3 -> com.leslie.gamevideo.activities.bp:
+    com.leslie.gamevideo.activities.Player this$0 -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+com.leslie.gamevideo.activities.PreLoadActivity -> com.leslie.gamevideo.activities.PreLoadActivity:
+    android.widget.Button btnHome -> e
+    android.widget.Button btnChannel -> f
+    android.widget.Button btnSearch -> g
+    android.widget.Button btnMore -> h
+    android.widget.TextView lblShengYu -> i
+    android.widget.ImageButton btnSheZhi -> j
+    java.lang.String strSdShengYu -> k
+    com.leslie.gamevideo.thread.ThreadPoolWrap tp -> l
+    android.os.Handler handler -> m
+    boolean setDownInMobile -> n
+    android.content.SharedPreferences sharePreferences -> o
+    boolean temSetDownInMobile -> p
+    android.content.SharedPreferences$Editor edit -> q
+    com.leslie.gamevideo.predownload.FileDownloader loader -> a
+    java.lang.Runnable rBindShengYu -> r
+    java.lang.Runnable rGetPreloadList -> s
+    java.lang.Runnable rGetPreloadList2 -> t
+    java.lang.Runnable rReInitData -> u
+    java.lang.Runnable rReInitData2 -> v
+    java.lang.Runnable rStartDownNext -> w
+    java.util.ArrayList preloadList -> x
+    boolean b -> y
+    boolean downing -> z
+    android.widget.LinearLayout LinearLayList -> A
+    java.util.HashMap groupMap -> B
+    boolean tishi3G -> C
+    java.util.HashMap preloadMap -> D
+    android.view.LayoutInflater layoutInflater -> E
+    java.text.DecimalFormat myformat -> b
+    java.lang.Long currentLoadPlayId -> c
+    long loadMili -> d
+    boolean isCreate -> F
+    void initData() -> a
+    void startDowning(com.leslie.gamevideo.model.Preload) -> a
+    void alertDialog(java.lang.String) -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    void onBackPressed() -> onBackPressed
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    void onDestroy() -> onDestroy
+    void onRestart() -> onRestart
+    void getSDShenYu() -> c
+    boolean access$0(com.leslie.gamevideo.activities.PreLoadActivity) -> a
+    android.os.Handler access$1(com.leslie.gamevideo.activities.PreLoadActivity) -> b
+    java.lang.Runnable access$2(com.leslie.gamevideo.activities.PreLoadActivity) -> c
+    com.leslie.gamevideo.thread.ThreadPoolWrap access$3(com.leslie.gamevideo.activities.PreLoadActivity) -> d
+    void access$4$16a91d19(com.leslie.gamevideo.activities.PreLoadActivity) -> e
+    void access$5(com.leslie.gamevideo.activities.PreLoadActivity) -> f
+    void access$6(com.leslie.gamevideo.activities.PreLoadActivity,java.util.ArrayList) -> a
+    java.util.ArrayList access$7(com.leslie.gamevideo.activities.PreLoadActivity) -> g
+    java.lang.Runnable access$8(com.leslie.gamevideo.activities.PreLoadActivity) -> h
+    java.util.HashMap access$9(com.leslie.gamevideo.activities.PreLoadActivity) -> i
+    void access$10(com.leslie.gamevideo.activities.PreLoadActivity,com.leslie.gamevideo.model.Preload) -> a
+    java.lang.Runnable access$11(com.leslie.gamevideo.activities.PreLoadActivity) -> j
+    android.widget.TextView access$12(com.leslie.gamevideo.activities.PreLoadActivity) -> k
+    java.lang.String access$13(com.leslie.gamevideo.activities.PreLoadActivity) -> l
+    void access$15$1385ff() -> b
+    void access$16(com.leslie.gamevideo.activities.PreLoadActivity,com.leslie.gamevideo.model.Preload) -> b
+    void access$17(com.leslie.gamevideo.activities.PreLoadActivity,java.lang.String) -> a
+    java.lang.Runnable access$18(com.leslie.gamevideo.activities.PreLoadActivity) -> m
+    void access$19(com.leslie.gamevideo.activities.PreLoadActivity) -> n
+    void access$20(com.leslie.gamevideo.activities.PreLoadActivity,java.lang.String) -> b
+    java.lang.Runnable access$21(com.leslie.gamevideo.activities.PreLoadActivity) -> o
+    boolean access$22(com.leslie.gamevideo.activities.PreLoadActivity) -> p
+    void access$23(com.leslie.gamevideo.activities.PreLoadActivity,boolean) -> a
+    boolean access$24(com.leslie.gamevideo.activities.PreLoadActivity) -> q
+    void access$25(com.leslie.gamevideo.activities.PreLoadActivity,boolean) -> b
+    android.content.SharedPreferences$Editor access$26(com.leslie.gamevideo.activities.PreLoadActivity) -> r
+com.leslie.gamevideo.activities.PreLoadActivity$1 -> com.leslie.gamevideo.activities.j:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.activities.PreLoadActivity$1$1 -> com.leslie.gamevideo.activities.cd:
+    com.leslie.gamevideo.activities.PreLoadActivity$1 this$1 -> a
+    com.leslie.gamevideo.model.Preload val$fp -> b
+    int val$fd -> c
+    int val$ffsize -> d
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$10 -> com.leslie.gamevideo.activities.at:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    com.leslie.gamevideo.model.Preload val$fp -> b
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$11 -> com.leslie.gamevideo.activities.av:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    com.leslie.gamevideo.model.Preload val$fp -> b
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$12 -> com.leslie.gamevideo.activities.bd:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    com.leslie.gamevideo.model.Preload val$fp -> b
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$13 -> com.leslie.gamevideo.activities.bf:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    com.leslie.gamevideo.model.Preload val$preload -> b
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$13$1 -> com.leslie.gamevideo.activities.ce:
+    com.leslie.gamevideo.activities.PreLoadActivity$13 this$1 -> a
+    com.leslie.gamevideo.model.Preload val$preload -> b
+    com.leslie.gamevideo.model.preloadContolGroup val$group -> c
+    void onDownloadSize(int) -> a
+com.leslie.gamevideo.activities.PreLoadActivity$14 -> com.leslie.gamevideo.activities.az:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    com.leslie.gamevideo.model.Preload val$preload -> b
+    java.lang.String val$sdCardExt -> c
+    java.lang.String val$extVideoPath -> d
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$15 -> com.leslie.gamevideo.activities.bb:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    com.leslie.gamevideo.model.Preload val$preload -> b
+    java.lang.String val$sdCardExt -> c
+    java.lang.String val$extVideoPath -> d
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$16 -> com.leslie.gamevideo.activities.bk:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    com.leslie.gamevideo.model.Preload val$preload -> b
+    java.lang.String val$sdCardExt -> c
+    java.lang.String val$extVideoPath -> d
+    java.lang.Long val$playId -> e
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$16$1 -> com.leslie.gamevideo.activities.i:
+    com.leslie.gamevideo.activities.PreLoadActivity$16 this$1 -> a
+    com.leslie.gamevideo.model.Preload val$preload -> b
+    java.lang.String val$sdCardExt -> c
+    java.lang.String val$extVideoPath -> d
+    java.lang.Long val$playId -> e
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$16$1$1 -> com.leslie.gamevideo.activities.bu:
+    com.leslie.gamevideo.activities.PreLoadActivity$16$1 this$2 -> a
+    java.lang.Long val$playId -> b
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$16$1$2 -> com.leslie.gamevideo.activities.bt:
+    com.leslie.gamevideo.activities.PreLoadActivity$16$1 this$2 -> a
+    java.lang.Long val$playId -> b
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$16$2 -> com.leslie.gamevideo.activities.h:
+    com.leslie.gamevideo.activities.PreLoadActivity$16 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$17 -> com.leslie.gamevideo.activities.bm:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$18 -> com.leslie.gamevideo.activities.bh:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$19 -> com.leslie.gamevideo.activities.bi:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$2 -> com.leslie.gamevideo.activities.k:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$20 -> com.leslie.gamevideo.activities.e:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int,boolean) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$21 -> com.leslie.gamevideo.activities.g:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$21$1 -> com.leslie.gamevideo.activities.ag:
+    com.leslie.gamevideo.activities.PreLoadActivity$21 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$21$2 -> com.leslie.gamevideo.activities.ar:
+    com.leslie.gamevideo.activities.PreLoadActivity$21 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$22 -> com.leslie.gamevideo.activities.f:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$3 -> com.leslie.gamevideo.activities.am:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$4 -> com.leslie.gamevideo.activities.an:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$5 -> com.leslie.gamevideo.activities.ak:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$6 -> com.leslie.gamevideo.activities.al:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$7 -> com.leslie.gamevideo.activities.ai:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.PreLoadActivity$8 -> com.leslie.gamevideo.activities.aj:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.PreLoadActivity$9 -> com.leslie.gamevideo.activities.ah:
+    com.leslie.gamevideo.activities.PreLoadActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.activities.Search -> com.leslie.gamevideo.activities.Search:
+    android.widget.EditText searchContent -> a
+    android.widget.ImageButton searchButton -> b
+    android.widget.ListView searchVideoList -> c
+    android.view.inputmethod.InputMethodManager imm -> d
+    android.widget.Button btnHome -> e
+    android.widget.Button btnChannel -> f
+    android.widget.Button btnSearch -> g
+    android.widget.Button btnMore -> h
+    android.widget.RelativeLayout searchListLayout -> i
+    android.widget.RelativeLayout netLoading -> j
+    android.os.Handler handler -> k
+    android.widget.LinearLayout layoutKong -> l
+    boolean hasNextPage -> m
+    int pageNum -> n
+    android.widget.RelativeLayout loadMoreLayout -> o
+    com.leslie.gamevideo.adapter.VideoAdapter adapter -> p
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> q
+    java.util.ArrayList HotKeylist -> r
+    android.widget.GridView gridView -> s
+    android.widget.LinearLayout layoutHotKey -> t
+    android.widget.TextView totalSearch -> u
+    android.widget.RelativeLayout netError -> v
+    java.lang.Runnable searchRunnable -> w
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> a
+    void onDestroy() -> onDestroy
+    void onRestart() -> onRestart
+    void onBackPressed() -> onBackPressed
+    java.lang.String access$0(com.leslie.gamevideo.activities.Search) -> a
+    void access$1(com.leslie.gamevideo.activities.Search,com.leslie.gamevideo.xml.info.VideoCollectionInfo) -> a
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo access$2(com.leslie.gamevideo.activities.Search) -> b
+    void access$3(com.leslie.gamevideo.activities.Search,boolean) -> a
+    android.widget.TextView access$4(com.leslie.gamevideo.activities.Search) -> c
+    android.widget.ListView access$5(com.leslie.gamevideo.activities.Search) -> d
+    void access$6(com.leslie.gamevideo.activities.Search,com.leslie.gamevideo.adapter.VideoAdapter) -> a
+    com.leslie.gamevideo.adapter.VideoAdapter access$7(com.leslie.gamevideo.activities.Search) -> e
+    android.os.Handler access$8(com.leslie.gamevideo.activities.Search) -> f
+    java.lang.Runnable access$9(com.leslie.gamevideo.activities.Search) -> g
+    boolean access$10(com.leslie.gamevideo.activities.Search) -> h
+    void access$11(com.leslie.gamevideo.activities.Search) -> i
+    android.widget.RelativeLayout access$12(com.leslie.gamevideo.activities.Search) -> j
+    int access$13(com.leslie.gamevideo.activities.Search) -> k
+    void access$14(com.leslie.gamevideo.activities.Search,int) -> a
+    android.widget.RelativeLayout access$16(com.leslie.gamevideo.activities.Search) -> l
+    android.widget.LinearLayout access$17(com.leslie.gamevideo.activities.Search) -> m
+    android.widget.LinearLayout access$18(com.leslie.gamevideo.activities.Search) -> n
+    void access$19(com.leslie.gamevideo.activities.Search) -> o
+    android.widget.EditText access$20(com.leslie.gamevideo.activities.Search) -> p
+    void access$21(com.leslie.gamevideo.activities.Search) -> q
+    android.widget.ImageButton access$22(com.leslie.gamevideo.activities.Search) -> r
+    android.view.inputmethod.InputMethodManager access$23(com.leslie.gamevideo.activities.Search) -> s
+    java.util.ArrayList access$24(com.leslie.gamevideo.activities.Search) -> t
+com.leslie.gamevideo.activities.Search$1 -> com.leslie.gamevideo.activities.b:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Search$2 -> com.leslie.gamevideo.activities.a:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.activities.Search$3 -> com.leslie.gamevideo.activities.d:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Search$4 -> com.leslie.gamevideo.activities.c:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Search$5 -> com.leslie.gamevideo.activities.ay:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.leslie.gamevideo.activities.Search$6 -> com.leslie.gamevideo.activities.ax:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.activities.Search$7 -> com.leslie.gamevideo.activities.au:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Search$8 -> com.leslie.gamevideo.activities.as:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Search$MyThread -> com.leslie.gamevideo.activities.bs:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.activities.Search$scrollListener -> com.leslie.gamevideo.activities.m:
+    com.leslie.gamevideo.activities.Search this$0 -> a
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+com.leslie.gamevideo.activities.Sort -> com.leslie.gamevideo.activities.Sort:
+    android.widget.Button btnHome -> a
+    android.widget.Button btnChannel -> b
+    android.widget.Button btnSearch -> c
+    android.widget.Button btnMore -> d
+    android.widget.Button btnDianYing -> e
+    android.widget.Button btnbtnShiShang -> f
+    android.widget.Button btnTiYu -> g
+    android.widget.Button btnYuLe -> h
+    android.widget.Button btnXinWen -> i
+    android.widget.Button btnDongMan -> j
+    android.widget.RelativeLayout sortListLayout -> k
+    android.widget.ListView sortVideoList -> l
+    com.leslie.gamevideo.listener.SortBtnListener sortBtnListener -> m
+    android.os.Handler handler -> n
+    android.widget.RelativeLayout netLoading -> o
+    void onCreate(android.os.Bundle) -> onCreate
+    void onBackPressed() -> onBackPressed
+    void onDestroy() -> onDestroy
+    void onRestart() -> onRestart
+    android.widget.ListView access$0(com.leslie.gamevideo.activities.Sort) -> a
+    android.os.Handler access$1(com.leslie.gamevideo.activities.Sort) -> b
+    android.widget.RelativeLayout access$2(com.leslie.gamevideo.activities.Sort) -> c
+com.leslie.gamevideo.activities.Sort$1 -> com.leslie.gamevideo.activities.bv:
+    com.leslie.gamevideo.activities.Sort this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.activities.Sort$MyThread -> com.leslie.gamevideo.activities.bw:
+    com.leslie.gamevideo.activities.Sort this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.adapter.CollectListAdatpter -> com.leslie.gamevideo.a.c:
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> a
+    android.content.Context context -> b
+    boolean isDelete -> c
+    com.leslie.gamevideo.db.MainDbHelper dbHelper -> d
+    android.widget.ListView listView -> e
+    android.os.Handler handler -> f
+    int getCount() -> getCount
+    long getItemId(int) -> getItemId
+    void setIsDelete(boolean) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    android.content.Context access$1(com.leslie.gamevideo.adapter.CollectListAdatpter) -> a
+    void access$2(com.leslie.gamevideo.adapter.CollectListAdatpter,com.leslie.gamevideo.db.MainDbHelper) -> a
+    com.leslie.gamevideo.db.MainDbHelper access$3(com.leslie.gamevideo.adapter.CollectListAdatpter) -> b
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo access$4(com.leslie.gamevideo.adapter.CollectListAdatpter) -> c
+    android.os.Handler access$5(com.leslie.gamevideo.adapter.CollectListAdatpter) -> d
+    android.widget.ListView access$6(com.leslie.gamevideo.adapter.CollectListAdatpter) -> e
+com.leslie.gamevideo.adapter.CollectListAdatpter$1 -> com.leslie.gamevideo.a.d:
+    com.leslie.gamevideo.adapter.CollectListAdatpter this$0 -> a
+    com.leslie.gamevideo.xml.info.VideoInfo val$videoInfo -> b
+    int val$p -> c
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.leslie.gamevideo.adapter.CollectViewHolder -> com.leslie.gamevideo.a.f:
+    android.widget.TextView lblCollectDate -> a
+    android.widget.TextView lblTitle -> b
+    android.widget.CheckBox mCheckBox -> c
+com.leslie.gamevideo.adapter.HistoryListAdatpter -> com.leslie.gamevideo.a.n:
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> a
+    android.content.Context context -> b
+    boolean isDelete -> c
+    com.leslie.gamevideo.db.MainDbHelper dbHelper -> d
+    android.widget.ListView listView -> e
+    android.os.Handler handler -> f
+    int getCount() -> getCount
+    long getItemId(int) -> getItemId
+    void setIsDelete(boolean) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    android.content.Context access$1(com.leslie.gamevideo.adapter.HistoryListAdatpter) -> a
+    void access$2(com.leslie.gamevideo.adapter.HistoryListAdatpter,com.leslie.gamevideo.db.MainDbHelper) -> a
+    com.leslie.gamevideo.db.MainDbHelper access$3(com.leslie.gamevideo.adapter.HistoryListAdatpter) -> b
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo access$4(com.leslie.gamevideo.adapter.HistoryListAdatpter) -> c
+    android.os.Handler access$5(com.leslie.gamevideo.adapter.HistoryListAdatpter) -> d
+    android.widget.ListView access$6(com.leslie.gamevideo.adapter.HistoryListAdatpter) -> e
+com.leslie.gamevideo.adapter.HistoryListAdatpter$1 -> com.leslie.gamevideo.a.m:
+    com.leslie.gamevideo.adapter.HistoryListAdatpter this$0 -> a
+    com.leslie.gamevideo.xml.info.VideoInfo val$videoInfo -> b
+    int val$p -> c
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.leslie.gamevideo.adapter.HistoryViewHolder -> com.leslie.gamevideo.a.j:
+    android.widget.TextView lblCollectDate -> a
+    android.widget.TextView lblTitle -> b
+    android.widget.CheckBox mCheckBox -> c
+com.leslie.gamevideo.adapter.HotKeyWordsAdapter -> com.leslie.gamevideo.a.b:
+    android.content.Context context -> a
+    java.util.ArrayList mlist -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.leslie.gamevideo.adapter.HotKeyWordsAdapter$ViewHolder -> com.leslie.gamevideo.a.k:
+    android.widget.TextView textView -> a
+com.leslie.gamevideo.adapter.VideoAdapter -> com.leslie.gamevideo.a.l:
+    android.view.LayoutInflater mInflater -> a
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> b
+    com.leslie.gamevideo.adapter.VideoAdapter$OnLayoutCompleteListener mLayoutCompleteListener -> c
+    java.lang.String TAG -> d
+    android.widget.ListView listView -> e
+    void setVideos(com.leslie.gamevideo.xml.info.VideoCollectionInfo) -> a
+    int getCount() -> getCount
+    com.leslie.gamevideo.xml.info.VideoInfo getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    android.widget.ListView access$1(com.leslie.gamevideo.adapter.VideoAdapter) -> a
+com.leslie.gamevideo.adapter.VideoAdapter$1 -> com.leslie.gamevideo.a.h:
+    com.leslie.gamevideo.adapter.VideoAdapter this$0 -> a
+    android.view.ViewGroup val$parent -> b
+    android.view.View val$view -> c
+    int val$position -> d
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.adapter.VideoAdapter$2 -> com.leslie.gamevideo.a.g:
+    com.leslie.gamevideo.adapter.VideoAdapter this$0 -> a
+    void imageLoaded(android.graphics.Bitmap,java.lang.String) -> a
+com.leslie.gamevideo.adapter.VideoAdapter$OnLayoutCompleteListener -> com.leslie.gamevideo.a.a:
+com.leslie.gamevideo.adapter.VideoAdapter$VideoItemClickListener -> com.leslie.gamevideo.a.i:
+    com.leslie.gamevideo.adapter.VideoAdapter this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.leslie.gamevideo.adapter.VideoViewHolder -> com.leslie.gamevideo.a.e:
+    android.widget.ImageView imageViewThumb -> a
+    android.widget.TextView TextTitle -> b
+    android.widget.TextView TextData -> c
+    android.widget.TextView TextDuration -> d
+com.leslie.gamevideo.application.ExitApplication -> com.leslie.gamevideo.application.ExitApplication:
+    java.util.List activityList -> a
+com.leslie.gamevideo.application.MyApplication -> com.leslie.gamevideo.application.MyApplication:
+    com.leslie.gamevideo.application.MyApplication instance -> a
+    void onCreate() -> onCreate
+com.leslie.gamevideo.banner.GalleryFlow -> com.leslie.gamevideo.banner.GalleryFlow:
+    android.os.Handler mHandler -> a
+    java.lang.Runnable rGallery -> b
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void setAdapter(android.widget.SpinnerAdapter) -> setAdapter
+    void startFlow() -> a
+    void stopFlow() -> b
+    android.os.Handler access$0(com.leslie.gamevideo.banner.GalleryFlow) -> a
+    java.lang.Runnable access$1(com.leslie.gamevideo.banner.GalleryFlow) -> b
+com.leslie.gamevideo.banner.GalleryFlow$1 -> com.leslie.gamevideo.banner.a:
+    com.leslie.gamevideo.banner.GalleryFlow this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.banner.ImageAdapter -> com.leslie.gamevideo.banner.c:
+    int mGalleryItemBackground -> a
+    android.content.Context mContext -> b
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> c
+    int width -> d
+    com.leslie.gamevideo.banner.GalleryFlow gallery -> e
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    com.leslie.gamevideo.banner.GalleryFlow access$0(com.leslie.gamevideo.banner.ImageAdapter) -> a
+com.leslie.gamevideo.banner.ImageAdapter$1 -> com.leslie.gamevideo.banner.b:
+    com.leslie.gamevideo.banner.ImageAdapter this$0 -> a
+    void imageLoaded(android.graphics.Bitmap,java.lang.String) -> a
+com.leslie.gamevideo.db.MainDbHelper -> com.leslie.gamevideo.h.b:
+    com.leslie.gamevideo.db.MainDbHelper instance -> a
+    com.leslie.gamevideo.db.MainDbHelper getInstance(android.content.Context) -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void addHistory(com.leslie.gamevideo.xml.info.VideoInfo) -> a
+    boolean addFavorite(com.leslie.gamevideo.xml.info.VideoInfo) -> b
+    boolean addVideo$66afb494(com.leslie.gamevideo.xml.info.VideoInfo,java.lang.String) -> b
+    boolean deleteVideo(com.leslie.gamevideo.xml.info.VideoInfo,java.lang.String) -> a
+    boolean inFavorite(int) -> a
+    boolean videoInTable(int,java.lang.String) -> a
+com.leslie.gamevideo.db.PreloadDeal -> com.leslie.gamevideo.h.a:
+    android.database.sqlite.SQLiteDatabase db -> a
+    com.leslie.gamevideo.db.MainDbHelper helper -> b
+    void deletePreload(java.lang.Long) -> a
+    java.util.ArrayList getPreloadList() -> a
+    void release() -> b
+    void updatePreload$7010878c(java.lang.Long,int,int) -> a
+    void updatePreloadLoading(java.lang.Long,int) -> a
+    void updatePreloadLoadsize(java.lang.Long,int,int) -> b
+com.leslie.gamevideo.http.HttpDownload -> com.leslie.gamevideo.j.b:
+    java.net.URL url -> a
+    void setUrl(java.lang.String) -> a
+    java.io.InputStreamReader getStream() -> b
+    java.lang.String getContent() -> a
+com.leslie.gamevideo.http.HttpDownloadException -> com.leslie.gamevideo.j.a:
+com.leslie.gamevideo.json.JsonInflater -> com.leslie.gamevideo.i.a:
+    java.lang.String TAG -> a
+    int next -> b
+    int total -> c
+    java.lang.String content -> d
+    int getNext() -> a
+    int getTotal() -> b
+    void inflat(com.leslie.gamevideo.xml.PullJsonItemInterface) -> a
+com.leslie.gamevideo.listener.BindTopbarBtnListener -> com.leslie.gamevideo.d.e:
+    android.widget.ImageButton imgbtnSearch -> a
+    android.widget.ImageButton imgbtnHistory -> b
+    void bindAllBtnListener(android.app.Activity) -> a
+com.leslie.gamevideo.listener.BindTopbarBtnListener$1 -> com.leslie.gamevideo.d.g:
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.listener.BindTopbarBtnListener$2 -> com.leslie.gamevideo.d.f:
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.listener.ChannelBtnListener -> com.leslie.gamevideo.d.h:
+    java.lang.String url -> a
+    android.widget.ListView videoListView -> b
+    android.widget.RelativeLayout channelListLayout -> c
+    android.widget.RelativeLayout netLoading -> d
+    android.os.Handler handler -> e
+    int pageNum -> f
+    android.widget.RelativeLayout loadMoreLayout -> g
+    android.widget.RelativeLayout netError -> h
+    boolean hasNextPage -> i
+    android.content.Context context -> j
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> k
+    com.leslie.gamevideo.adapter.VideoAdapter adapter -> l
+    com.leslie.gamevideo.listener.ChannelBtnListener$MyThread listThread -> m
+    void onClick(android.view.View) -> onClick
+    java.lang.String getUrl(android.app.Activity) -> b
+    int getSortId(android.app.Activity) -> c
+    void setSelected(android.app.Activity,int) -> a
+    void setSortBtnSelected(android.app.Activity,int) -> b
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    java.lang.String access$0(com.leslie.gamevideo.listener.ChannelBtnListener) -> a
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo access$1(com.leslie.gamevideo.listener.ChannelBtnListener) -> b
+    android.widget.ListView access$2(com.leslie.gamevideo.listener.ChannelBtnListener) -> c
+    void access$3(com.leslie.gamevideo.listener.ChannelBtnListener,com.leslie.gamevideo.adapter.VideoAdapter) -> a
+    com.leslie.gamevideo.adapter.VideoAdapter access$4(com.leslie.gamevideo.listener.ChannelBtnListener) -> d
+    android.os.Handler access$5(com.leslie.gamevideo.listener.ChannelBtnListener) -> e
+    android.content.Context access$6(com.leslie.gamevideo.listener.ChannelBtnListener) -> f
+    java.lang.String access$7$6ce3b789(android.app.Activity) -> a
+    int access$8(com.leslie.gamevideo.listener.ChannelBtnListener) -> g
+    void access$9(com.leslie.gamevideo.listener.ChannelBtnListener,boolean) -> a
+com.leslie.gamevideo.listener.ChannelBtnListener$1 -> com.leslie.gamevideo.d.j:
+    com.leslie.gamevideo.listener.ChannelBtnListener this$0 -> a
+    android.widget.RelativeLayout val$channelListLayout -> b
+    android.widget.ListView val$videoListView -> c
+    android.widget.RelativeLayout val$netError -> d
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.listener.ChannelBtnListener$2 -> com.leslie.gamevideo.d.i:
+    com.leslie.gamevideo.listener.ChannelBtnListener this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.listener.ChannelBtnListener$MyThread -> com.leslie.gamevideo.d.c:
+    com.leslie.gamevideo.listener.ChannelBtnListener this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.listener.FootBtnListener -> com.leslie.gamevideo.d.a:
+    void onClick(android.view.View) -> onClick
+com.leslie.gamevideo.listener.SortBtnListener -> com.leslie.gamevideo.d.d:
+    java.lang.String url -> a
+    android.widget.ListView videoListView -> b
+    android.widget.RelativeLayout sortListLayout -> c
+    android.widget.RelativeLayout netLoading -> d
+    android.os.Handler handler -> e
+    void onClick(android.view.View) -> onClick
+    void setSelected(android.app.Activity,int) -> a
+    android.widget.ListView access$0(com.leslie.gamevideo.listener.SortBtnListener) -> a
+    java.lang.String access$1(com.leslie.gamevideo.listener.SortBtnListener) -> b
+    android.os.Handler access$2(com.leslie.gamevideo.listener.SortBtnListener) -> c
+com.leslie.gamevideo.listener.SortBtnListener$MyThread -> com.leslie.gamevideo.d.b:
+    com.leslie.gamevideo.listener.SortBtnListener this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.mail.MailSenderInfo -> com.leslie.gamevideo.k.a:
+    java.lang.String mailServerHost -> a
+    java.lang.String mailServerPort -> b
+    java.lang.String fromAddress -> c
+    java.lang.String toAddress -> d
+    java.lang.String userName -> e
+    java.lang.String password -> f
+    boolean validate -> g
+    java.lang.String subject -> h
+    java.lang.String content -> i
+    java.util.Properties getProperties() -> a
+    void setMailServerHost(java.lang.String) -> a
+    void setMailServerPort(java.lang.String) -> b
+    boolean isValidate() -> b
+    void setValidate$1385ff() -> c
+    java.lang.String getFromAddress() -> d
+    void setFromAddress(java.lang.String) -> c
+    java.lang.String getPassword() -> e
+    void setPassword(java.lang.String) -> d
+    java.lang.String getToAddress() -> f
+    void setToAddress(java.lang.String) -> e
+    java.lang.String getUserName() -> g
+    void setUserName(java.lang.String) -> f
+    java.lang.String getSubject() -> h
+    void setSubject(java.lang.String) -> g
+    java.lang.String getContent() -> i
+    void setContent(java.lang.String) -> h
+com.leslie.gamevideo.mail.MyAuthenticator -> com.leslie.gamevideo.k.b:
+    java.lang.String userName -> a
+    java.lang.String password -> b
+    javax.mail.PasswordAuthentication getPasswordAuthentication() -> a
+com.leslie.gamevideo.mail.SimpleMailSender -> com.leslie.gamevideo.k.c:
+    boolean sendHtmlMail(com.leslie.gamevideo.mail.MailSenderInfo) -> a
+com.leslie.gamevideo.model.Preload -> com.leslie.gamevideo.g.a:
+    java.lang.Long _id -> b
+    java.lang.Integer loadCurrentByte -> c
+    java.lang.Integer loadCurrentDuration -> d
+    java.lang.Integer loadFinish -> e
+    java.lang.String loadLocalPath -> f
+    java.lang.Long loadPlayId -> g
+    java.lang.String loadPlayTitle -> h
+    java.lang.Integer loadSumByte -> i
+    java.lang.String loadSumDuration -> j
+    java.lang.String loadUrl -> k
+    java.lang.Integer loading -> l
+    java.lang.Integer newPostion -> m
+    int oldCurrentByte -> a
+    java.lang.Integer getLoadCurrentByte() -> a
+    java.lang.Integer getLoadFinish() -> b
+    java.lang.String getLoadLocalPath() -> c
+    java.lang.Long getLoadPlayId() -> d
+    java.lang.String getLoadPlayTitle() -> e
+    java.lang.Integer getLoadSumByte() -> f
+    java.lang.String getLoadUrl() -> g
+    java.lang.Integer getLoading() -> h
+    void setLoadCurrentByte(java.lang.Integer) -> a
+    void setLoadCurrentDuration(java.lang.Integer) -> b
+    void setLoadFinish(java.lang.Integer) -> c
+    void setLoadLocalPath(java.lang.String) -> a
+    void setLoadPlayId(java.lang.Long) -> a
+    void setLoadPlayTitle(java.lang.String) -> b
+    void setLoadSumByte(java.lang.Integer) -> d
+    void setLoadSumDuration(java.lang.String) -> c
+    void setLoadUrl(java.lang.String) -> d
+    void setLoading(java.lang.Integer) -> e
+    void setNewPostion(java.lang.Integer) -> f
+    void set_id(java.lang.Long) -> b
+com.leslie.gamevideo.model.preloadContolGroup -> com.leslie.gamevideo.g.b:
+    android.widget.ProgressBar ProgressBarDown -> a
+    android.widget.Button btnControl -> b
+    android.widget.Button btnDelete -> c
+    android.widget.Button btnPlay -> d
+    android.widget.TextView lblPercent -> e
+    android.widget.TextView lblStatus -> f
+    android.widget.TextView lblWeizhi -> g
+    android.widget.LinearLayout linearLayProcess -> h
+    android.widget.LinearLayout linearLayProcessStatus -> i
+    java.lang.Long playId -> j
+    android.widget.Button getBtnControl() -> a
+    android.widget.Button getBtnDelete() -> b
+    android.widget.Button getBtnPlay() -> c
+    android.widget.TextView getLblPercent() -> d
+    android.widget.TextView getLblStatus() -> e
+    android.widget.TextView getLblWeizhi() -> f
+    android.widget.LinearLayout getLinearLayProcess() -> g
+    android.widget.LinearLayout getLinearLayProcessStatus() -> h
+    android.widget.ProgressBar getProgressBarDown() -> i
+    void setBtnControl(android.widget.Button) -> a
+    void setBtnDelete(android.widget.Button) -> b
+    void setBtnPlay(android.widget.Button) -> c
+    void setLblPercent(android.widget.TextView) -> a
+    void setLblStatus(android.widget.TextView) -> b
+    void setLblWeizhi(android.widget.TextView) -> c
+    void setLinearLayProcess(android.widget.LinearLayout) -> a
+    void setLinearLayProcessStatus(android.widget.LinearLayout) -> b
+    void setPlayId(java.lang.Long) -> a
+    void setProgressBarDown(android.widget.ProgressBar) -> a
+com.leslie.gamevideo.predownload.DownloadProgressListener -> com.leslie.gamevideo.f.e:
+    void onDownloadSize(int) -> a
+com.leslie.gamevideo.predownload.DownloadThread -> com.leslie.gamevideo.f.a:
+    android.content.Context ct -> a
+    java.net.URL downUrl -> b
+    com.leslie.gamevideo.predownload.FileDownloader downloader -> c
+    int end -> d
+    boolean except -> e
+    boolean finish -> f
+    java.io.File saveFile -> g
+    int start -> h
+    boolean stop -> i
+    boolean isFinish() -> a
+    void run() -> run
+    void setStop$1385ff() -> b
+com.leslie.gamevideo.predownload.DownloadThreadManager -> com.leslie.gamevideo.f.f:
+    java.util.ArrayList threadList -> a
+    void addThread(com.leslie.gamevideo.predownload.DownloadThread) -> a
+    void clearThread() -> a
+com.leslie.gamevideo.predownload.FileDownloader -> com.leslie.gamevideo.f.d:
+    com.leslie.gamevideo.predownload.DownloadThread dt -> a
+    android.content.Context ct -> b
+    int fileSize -> c
+    com.leslie.gamevideo.model.Preload preload -> d
+    android.content.SharedPreferences sharePreferences -> e
+    boolean stop -> f
+    int videoLoadSize -> g
+    int waitCheck -> h
+    int PauseDownload() -> a
+    void append(int) -> a
+    void appendFileSize(int) -> b
+    int download(com.leslie.gamevideo.predownload.DownloadProgressListener) -> a
+    int getLoadSize() -> b
+    int access$0(com.leslie.gamevideo.predownload.FileDownloader) -> a
+    android.content.Context access$1(com.leslie.gamevideo.predownload.FileDownloader) -> b
+    com.leslie.gamevideo.model.Preload access$2(com.leslie.gamevideo.predownload.FileDownloader) -> c
+    int access$3(com.leslie.gamevideo.predownload.FileDownloader) -> d
+    com.leslie.gamevideo.predownload.DownloadThread access$4() -> c
+com.leslie.gamevideo.predownload.FileDownloader$1 -> com.leslie.gamevideo.f.b:
+    com.leslie.gamevideo.predownload.FileDownloader this$0 -> a
+    com.leslie.gamevideo.predownload.DownloadProgressListener val$downloadprogresslistener -> b
+    void run() -> run
+com.leslie.gamevideo.predownload.FileDownloader$2 -> com.leslie.gamevideo.f.c:
+    com.leslie.gamevideo.predownload.FileDownloader this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.thread.ImageThreadPoolWrap -> com.leslie.gamevideo.e.a:
+    com.leslie.gamevideo.thread.ImageThreadPoolWrap instance -> a
+    java.util.concurrent.LinkedBlockingQueue bq -> b
+    java.util.concurrent.ThreadPoolExecutor executor -> c
+    com.leslie.gamevideo.thread.ImageThreadPoolWrap getThreadPool() -> a
+    void executeTask(java.lang.Runnable) -> a
+com.leslie.gamevideo.thread.PreloadThreadPoolWrap -> com.leslie.gamevideo.e.b:
+    com.leslie.gamevideo.thread.PreloadThreadPoolWrap instance -> a
+    java.util.concurrent.BlockingQueue bq -> b
+    java.util.concurrent.ThreadPoolExecutor executor -> c
+    com.leslie.gamevideo.thread.PreloadThreadPoolWrap getThreadPool() -> a
+    void executeTask(java.lang.Runnable) -> a
+com.leslie.gamevideo.thread.ThreadPoolWrap -> com.leslie.gamevideo.e.c:
+    com.leslie.gamevideo.thread.ThreadPoolWrap instance -> a
+    java.util.concurrent.BlockingQueue bq -> b
+    java.util.concurrent.ThreadPoolExecutor executor -> c
+    com.leslie.gamevideo.thread.ThreadPoolWrap getThreadPool() -> a
+    void executeTask(java.lang.Runnable) -> a
+com.leslie.gamevideo.utils.AsyncImageLoader -> com.leslie.gamevideo.c.h:
+    java.util.concurrent.ConcurrentHashMap imageCache -> a
+    int NUM -> b
+    boolean isDeling -> c
+    android.graphics.Bitmap loadDrawable(java.lang.String,com.leslie.gamevideo.utils.AsyncImageLoader$ImageCallback) -> a
+    void putDrawable(java.lang.String,android.graphics.Bitmap) -> a
+    android.graphics.Bitmap loadBitmapFromUrl(java.lang.String) -> a
+    void delKey() -> a
+    java.util.concurrent.ConcurrentHashMap access$0() -> b
+    int access$1() -> c
+    void access$3$1385ff() -> d
+com.leslie.gamevideo.utils.AsyncImageLoader$1 -> com.leslie.gamevideo.c.v:
+    com.leslie.gamevideo.utils.AsyncImageLoader$ImageCallback val$imageCallback -> a
+    java.lang.String val$imageUrl -> b
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.utils.AsyncImageLoader$2 -> com.leslie.gamevideo.c.w:
+    java.lang.String val$imageUrl -> a
+    android.os.Handler val$handler -> b
+    void run() -> run
+com.leslie.gamevideo.utils.AsyncImageLoader$ImageCallback -> com.leslie.gamevideo.c.x:
+    void imageLoaded(android.graphics.Bitmap,java.lang.String) -> a
+com.leslie.gamevideo.utils.AsyncImageLoader$Police -> com.leslie.gamevideo.c.t:
+    void run() -> run
+com.leslie.gamevideo.utils.CheckNetUtil -> com.leslie.gamevideo.c.q:
+    boolean checkNetState(android.content.Context) -> a
+com.leslie.gamevideo.utils.Config -> com.leslie.gamevideo.c.g:
+    boolean loadThumb -> e
+    boolean loadMore -> f
+    int loadNum -> g
+    android.content.pm.PackageInfo appInfo -> a
+    com.leslie.gamevideo.activities.Main main -> b
+    java.lang.String dbName -> c
+    int dbVersion -> d
+    int maxSearchHistory -> h
+    int maxFavorite -> i
+    int maxVideoHistory -> j
+    void init() -> a
+com.leslie.gamevideo.utils.Controller -> com.leslie.gamevideo.c.y:
+    com.leslie.gamevideo.utils.Controller instance -> a
+    int panelGroupId -> b
+    java.lang.Class HomeClass -> c
+    java.lang.Class ChannelClass -> d
+    java.lang.Class SortClass -> e
+    java.lang.Class SearchClass -> f
+    java.lang.Class MoreClass -> g
+    android.app.Activity activity -> h
+    com.leslie.gamevideo.http.HttpDownload downloader -> i
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo videos -> j
+    com.leslie.gamevideo.json.JsonInflater jsonInflater -> k
+    com.leslie.gamevideo.adapter.VideoAdapter adapter -> l
+    com.leslie.gamevideo.utils.Controller$VideoItemClickListener videoItemClickListener -> m
+    android.widget.ImageView[] dotImages -> n
+    com.leslie.gamevideo.utils.Controller instance() -> a
+    void play(android.view.View,java.lang.String) -> a
+    void manageBanner(com.leslie.gamevideo.banner.GalleryFlow,java.lang.String,android.content.Context,android.widget.TextView,android.widget.LinearLayout) -> a
+    void manageVideoList$4675b654(android.widget.ListView,java.lang.String) -> a
+    com.leslie.gamevideo.adapter.VideoAdapter getAdapter() -> b
+    android.app.Activity access$0(com.leslie.gamevideo.utils.Controller) -> a
+    android.widget.ImageView[] access$1(com.leslie.gamevideo.utils.Controller) -> b
+com.leslie.gamevideo.utils.Controller$6 -> com.leslie.gamevideo.c.p:
+    com.leslie.gamevideo.utils.Controller this$0 -> a
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo val$bannerVideos -> b
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.leslie.gamevideo.utils.Controller$7 -> com.leslie.gamevideo.c.j:
+    com.leslie.gamevideo.utils.Controller this$0 -> a
+    android.widget.TextView val$textView -> b
+    com.leslie.gamevideo.xml.info.VideoCollectionInfo val$bannerVideos -> c
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.leslie.gamevideo.utils.Controller$VideoItemClickListener -> com.leslie.gamevideo.c.s:
+    com.leslie.gamevideo.utils.Controller this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.leslie.gamevideo.utils.DialogTools -> com.leslie.gamevideo.c.i:
+    android.app.Dialog buildNetworkErrorDialog(android.app.Activity) -> a
+    android.app.Dialog build3G_2GDialog(android.app.Activity) -> b
+    void safeShowDialog(android.app.Dialog) -> a
+com.leslie.gamevideo.utils.DialogTools$1 -> com.leslie.gamevideo.c.o:
+    android.app.Activity val$activity -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.DialogTools$2 -> com.leslie.gamevideo.c.m:
+    android.app.Activity val$activity -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.DialogTools$3 -> com.leslie.gamevideo.c.n:
+    android.app.Activity val$activity -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.DialogTools$4 -> com.leslie.gamevideo.c.k:
+    android.app.Activity val$activity -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.DialogTools$5 -> com.leslie.gamevideo.c.l:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.SdCard -> com.leslie.gamevideo.c.a:
+    java.lang.String extSdCardPath -> a
+    boolean hasGetExtCardPath -> b
+    java.lang.String getExSdCardRoot() -> a
+    java.lang.String getTestExVideoPath() -> b
+com.leslie.gamevideo.utils.UpdateManager -> com.leslie.gamevideo.c.r:
+    android.content.Context mContext -> b
+    java.lang.String updateMsg -> c
+    java.lang.String apkUrl -> d
+    android.app.Dialog noticeDialog -> e
+    android.app.Dialog downloadDialog -> f
+    android.widget.ProgressBar mProgress -> a
+    int progress -> g
+    java.lang.Thread downLoadThread -> h
+    boolean interceptFlag -> i
+    android.os.Handler mHandler -> j
+    java.lang.Runnable mdownApkRunnable -> k
+    void checkUpdateInfo() -> a
+    void installApk() -> b
+    int access$0(com.leslie.gamevideo.utils.UpdateManager) -> a
+    void access$1(com.leslie.gamevideo.utils.UpdateManager,boolean) -> a
+    java.lang.String access$2(com.leslie.gamevideo.utils.UpdateManager) -> b
+    void access$3(com.leslie.gamevideo.utils.UpdateManager,int) -> a
+    android.os.Handler access$4(com.leslie.gamevideo.utils.UpdateManager) -> c
+    boolean access$5(com.leslie.gamevideo.utils.UpdateManager) -> d
+    void access$6(com.leslie.gamevideo.utils.UpdateManager) -> e
+com.leslie.gamevideo.utils.UpdateManager$1 -> com.leslie.gamevideo.c.b:
+    com.leslie.gamevideo.utils.UpdateManager this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.leslie.gamevideo.utils.UpdateManager$2 -> com.leslie.gamevideo.c.c:
+    com.leslie.gamevideo.utils.UpdateManager this$0 -> a
+    void run() -> run
+com.leslie.gamevideo.utils.UpdateManager$3 -> com.leslie.gamevideo.c.d:
+    com.leslie.gamevideo.utils.UpdateManager this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.UpdateManager$4 -> com.leslie.gamevideo.c.e:
+    com.leslie.gamevideo.utils.UpdateManager this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.UpdateManager$5 -> com.leslie.gamevideo.c.f:
+    com.leslie.gamevideo.utils.UpdateManager this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.leslie.gamevideo.utils.Utils -> com.leslie.gamevideo.c.u:
+    boolean checkNetworkAvalible() -> a
+    android.widget.RelativeLayout$LayoutParams getRelativeLayoutParams() -> b
+    int getVerCode(android.content.Context) -> a
+    java.lang.String getVerName(android.content.Context) -> b
+    int getServerVer(android.content.Context) -> c
+com.leslie.gamevideo.xml.PullJsonItemInterface -> com.leslie.gamevideo.b.a:
+    void setData(org.json.JSONObject) -> a
+com.leslie.gamevideo.xml.info.VideoCollectionInfo -> com.leslie.gamevideo.b.a.a:
+    com.leslie.gamevideo.xml.info.VideoInfo video -> a
+    void setData(org.json.JSONObject) -> a
+com.leslie.gamevideo.xml.info.VideoInfo -> com.leslie.gamevideo.b.a.c:
+    java.lang.String TAG -> a
+    java.util.Hashtable info -> b
+    com.leslie.gamevideo.xml.info.VideoInfo$ThumbState state -> c
+    java.lang.String localThumb -> d
+    java.lang.String get(java.lang.String) -> a
+    void set(java.lang.String,java.lang.String) -> a
+    void setData(org.json.JSONObject) -> a
+com.leslie.gamevideo.xml.info.VideoInfo$ThumbState -> com.leslie.gamevideo.b.a.b:
+    com.leslie.gamevideo.xml.info.VideoInfo$ThumbState NONE -> a
+    com.leslie.gamevideo.xml.info.VideoInfo$ThumbState LOADING -> b
+    com.leslie.gamevideo.xml.info.VideoInfo$ThumbState LOADED -> c
+    com.leslie.gamevideo.xml.info.VideoInfo$ThumbState[] ENUM$VALUES -> d
+    com.leslie.gamevideo.xml.info.VideoInfo$ThumbState[] values() -> values
+    com.leslie.gamevideo.xml.info.VideoInfo$ThumbState valueOf(java.lang.String) -> valueOf
+com.sun.activation.registries.LineTokenizer -> com.sun.activation.registries.LineTokenizer:
+    int currentPosition -> a
+    int maxPosition -> b
+    java.lang.String str -> c
+    java.util.Vector stack -> d
+    void skipWhiteSpace() -> c
+    boolean hasMoreTokens() -> a
+    java.lang.String nextToken() -> b
+com.sun.activation.registries.LogSupport -> com.sun.activation.registries.LogSupport:
+    boolean debug -> a
+    java.util.logging.Logger logger -> b
+    java.util.logging.Level level -> c
+    void log(java.lang.String) -> a
+    void log(java.lang.String,java.lang.Throwable) -> a
+    boolean isLoggable() -> a
+com.sun.activation.registries.MailcapFile -> com.sun.activation.registries.MailcapFile:
+    java.util.Map type_hash -> a
+    java.util.Map fallback_hash -> b
+    java.util.Map native_commands -> c
+    boolean addReverse -> d
+    java.util.Map getMailcapList(java.lang.String) -> a
+    java.util.Map getMailcapFallbackList(java.lang.String) -> b
+    java.util.Map mergeResults(java.util.Map,java.util.Map) -> a
+    void parse(java.io.Reader) -> a
+    void parseLine(java.lang.String) -> c
+    void reportParseError(int,int,java.lang.String) -> a
+    void reportParseError$2f109558(int,int,java.lang.String) -> b
+com.sun.activation.registries.MailcapParseException -> com.sun.activation.registries.MailcapParseException:
+com.sun.activation.registries.MailcapTokenizer -> com.sun.activation.registries.MailcapTokenizer:
+    java.lang.String data -> a
+    int dataIndex -> b
+    int dataLength -> c
+    int currentToken -> d
+    java.lang.String currentTokenValue -> e
+    boolean isAutoquoting -> f
+    char autoquoteChar -> g
+    void setIsAutoquoting(boolean) -> a
+    java.lang.String nameForToken(int) -> a
+    java.lang.String getCurrentTokenValue() -> a
+    int nextToken() -> b
+    void processStringToken() -> c
+    void processAutoquoteToken() -> d
+    boolean isStringTokenChar(char) -> a
+com.sun.activation.registries.MimeTypeEntry -> com.sun.activation.registries.MimeTypeEntry:
+    java.lang.String type -> a
+    java.lang.String extension -> b
+    java.lang.String getMIMEType() -> a
+    java.lang.String toString() -> toString
+com.sun.activation.registries.MimeTypeFile -> com.sun.activation.registries.MimeTypeFile:
+    java.lang.String fname -> a
+    java.util.Hashtable type_hash -> b
+    java.lang.String getMIMETypeString(java.lang.String) -> a
+    void parse(java.io.BufferedReader) -> a
+    void parseEntry(java.lang.String) -> b
+com.sun.mail.util.ASCIIUtility -> com.sun.a.a.f:
+    int parseInt$7dcce61a(byte[]) -> a
+    java.lang.String toString$55a39fc4(byte[]) -> b
+    byte[] getBytes(java.lang.String) -> a
+    byte[] getBytes(java.io.InputStream) -> a
+com.sun.mail.util.BASE64DecoderStream -> com.sun.a.a.b:
+    byte[] buffer -> a
+    int bufsize -> b
+    int index -> c
+    byte[] input_buffer -> d
+    int input_pos -> e
+    int input_len -> f
+    boolean ignoreErrors -> g
+    char[] pem_array -> h
+    byte[] pem_convert_array -> i
+    int read() -> read
+    int read(byte[],int,int) -> read
+    boolean markSupported() -> markSupported
+    int available() -> available
+    int decode(byte[],int,int) -> a
+    int getByte() -> a
+    java.lang.String recentChars() -> b
+com.sun.mail.util.BASE64EncoderStream -> com.sun.a.a.d:
+    byte[] buffer -> a
+    int bufsize -> b
+    byte[] outbuf -> c
+    int count -> d
+    int bytesPerLine -> e
+    int lineLimit -> f
+    boolean noCRLF -> g
+    byte[] newline -> h
+    char[] pem_array -> i
+    void write(byte[],int,int) -> write
+    void write(byte[]) -> write
+    void write(int) -> write
+    void flush() -> flush
+    void close() -> close
+    void encode() -> a
+    byte[] encode(byte[],int,int,byte[]) -> a
+com.sun.mail.util.BEncoderStream -> com.sun.a.a.g:
+com.sun.mail.util.LineInputStream -> com.sun.a.a.a:
+    char[] lineBuffer -> a
+    java.lang.String readLine() -> a
+com.sun.mail.util.QDecoderStream -> com.sun.a.a.j:
+    int read() -> read
+com.sun.mail.util.QEncoderStream -> com.sun.a.a.h:
+    java.lang.String specials -> a
+    java.lang.String WORD_SPECIALS -> b
+    java.lang.String TEXT_SPECIALS -> c
+    void write(int) -> write
+    int encodedLength(byte[],boolean) -> a
+com.sun.mail.util.QPDecoderStream -> com.sun.a.a.i:
+    byte[] ba -> a
+    int spaces -> b
+    int read() -> read
+    int read(byte[],int,int) -> read
+    boolean markSupported() -> markSupported
+    int available() -> available
+com.sun.mail.util.QPEncoderStream -> com.sun.a.a.e:
+    int count -> a
+    int bytesPerLine -> b
+    boolean gotSpace -> c
+    boolean gotCR -> d
+    char[] hex -> e
+    void write(byte[],int,int) -> write
+    void write(byte[]) -> write
+    void write(int) -> write
+    void flush() -> flush
+    void close() -> close
+    void outputCRLF() -> a
+    void output(int,boolean) -> a
+com.sun.mail.util.UUDecoderStream -> com.sun.a.a.c:
+    java.lang.String name -> a
+    int mode -> b
+    byte[] buffer -> c
+    int bufsize -> d
+    int index -> e
+    boolean gotPrefix -> f
+    boolean gotEnd -> g
+    com.sun.mail.util.LineInputStream lin -> h
+    int read() -> read
+    int read(byte[],int,int) -> read
+    boolean markSupported() -> markSupported
+    int available() -> available
+    boolean decode() -> a
+javax.activation.ActivationDataFlavor -> javax.activation.ActivationDataFlavor:
+    java.lang.String mimeType -> a
+    java.lang.Class representationClass -> b
+    java.lang.String getMimeType() -> a
+    java.lang.Class getRepresentationClass() -> b
+    boolean equals(myjava.awt.datatransfer.DataFlavor) -> b
+javax.activation.CommandInfo -> javax.activation.CommandInfo:
+javax.activation.CommandMap -> javax.activation.CommandMap:
+    javax.activation.CommandMap defaultCommandMap -> a
+    javax.activation.CommandMap getDefaultCommandMap() -> a
+    javax.activation.DataContentHandler createDataContentHandler(java.lang.String) -> a
+    javax.activation.DataContentHandler createDataContentHandler$5c34753(java.lang.String) -> b
+javax.activation.CommandObject -> javax.activation.CommandObject:
+javax.activation.DataContentHandler -> javax.activation.DataContentHandler:
+    java.lang.Object getContent(javax.activation.DataSource) -> a
+    void writeTo(java.lang.Object,java.lang.String,java.io.OutputStream) -> a
+javax.activation.DataContentHandlerFactory -> javax.activation.DataContentHandlerFactory:
+    javax.activation.DataContentHandler createDataContentHandler$5f9defcb() -> a
+javax.activation.DataHandler -> javax.activation.DataHandler:
+    javax.activation.DataSource dataSource -> a
+    javax.activation.DataSource objDataSource -> b
+    java.lang.Object object -> c
+    java.lang.String objectMimeType -> d
+    javax.activation.CommandMap currentCommandMap -> e
+    myjava.awt.datatransfer.DataFlavor[] emptyFlavors -> f
+    myjava.awt.datatransfer.DataFlavor[] transferFlavors -> g
+    javax.activation.DataContentHandler dataContentHandler -> h
+    javax.activation.DataContentHandler factoryDCH -> i
+    javax.activation.DataContentHandlerFactory factory -> j
+    javax.activation.DataContentHandlerFactory oldFactory -> k
+    java.lang.String shortType -> l
+    javax.activation.CommandMap getCommandMap() -> f
+    javax.activation.DataSource getDataSource() -> a
+    java.lang.String getName() -> b
+    java.lang.String getContentType() -> c
+    java.io.InputStream getInputStream() -> d
+    void writeTo(java.io.OutputStream) -> a
+    java.lang.Object getContent() -> e
+    javax.activation.DataContentHandler getDataContentHandler() -> g
+    java.lang.String getBaseType() -> h
+    java.lang.Object access$0(javax.activation.DataHandler) -> a
+    java.lang.String access$1(javax.activation.DataHandler) -> b
+javax.activation.DataHandler$1 -> javax.activation.DataHandler$1:
+    javax.activation.DataHandler this$0 -> a
+    java.io.PipedOutputStream val$pos -> b
+    javax.activation.DataContentHandler val$fdch -> c
+    void run() -> run
+javax.activation.DataHandlerDataSource -> javax.activation.DataHandlerDataSource:
+    javax.activation.DataHandler dataHandler -> a
+    java.io.InputStream getInputStream() -> a
+    java.lang.String getContentType() -> b
+    java.lang.String getName() -> c
+javax.activation.DataSource -> javax.activation.DataSource:
+    java.io.InputStream getInputStream() -> a
+    java.lang.String getContentType() -> b
+    java.lang.String getName() -> c
+javax.activation.DataSourceDataContentHandler -> javax.activation.DataSourceDataContentHandler:
+    javax.activation.DataSource ds -> a
+    myjava.awt.datatransfer.DataFlavor[] transferFlavors -> b
+    javax.activation.DataContentHandler dch -> c
+    java.lang.Object getContent(javax.activation.DataSource) -> a
+    void writeTo(java.lang.Object,java.lang.String,java.io.OutputStream) -> a
+javax.activation.FileDataSource -> javax.activation.FileDataSource:
+    java.io.File _file -> a
+    javax.activation.FileTypeMap typeMap -> b
+    java.io.InputStream getInputStream() -> a
+    java.lang.String getContentType() -> b
+    java.lang.String getName() -> c
+javax.activation.FileTypeMap -> javax.activation.FileTypeMap:
+    javax.activation.FileTypeMap defaultMap -> a
+    java.lang.String getContentType(java.io.File) -> a
+    javax.activation.FileTypeMap getDefaultFileTypeMap() -> a
+javax.activation.MailcapCommandMap -> javax.activation.MailcapCommandMap:
+    com.sun.activation.registries.MailcapFile defDB -> a
+    com.sun.activation.registries.MailcapFile[] DB -> b
+    com.sun.activation.registries.MailcapFile loadResource(java.lang.String) -> c
+    void loadAllResources(java.util.List,java.lang.String) -> a
+    com.sun.activation.registries.MailcapFile loadFile(java.lang.String) -> d
+    javax.activation.DataContentHandler createDataContentHandler(java.lang.String) -> a
+    javax.activation.DataContentHandler getDataContentHandler(java.lang.String) -> e
+javax.activation.MimeType -> javax.activation.MimeType:
+    java.lang.String primaryType -> a
+    java.lang.String subType -> b
+    javax.activation.MimeTypeParameterList parameters -> c
+    void parse(java.lang.String) -> a
+    java.lang.String toString() -> toString
+    java.lang.String getBaseType() -> a
+    void writeExternal(java.io.ObjectOutput) -> writeExternal
+    void readExternal(java.io.ObjectInput) -> readExternal
+    boolean isValidToken(java.lang.String) -> b
+javax.activation.MimeTypeParameterList -> javax.activation.MimeTypeParameterList:
+    java.util.Hashtable parameters -> a
+    void parse(java.lang.String) -> a
+    java.lang.String toString() -> toString
+    boolean isTokenChar(char) -> a
+    int skipWhiteSpace(java.lang.String,int) -> a
+    java.lang.String quote(java.lang.String) -> b
+    java.lang.String unquote(java.lang.String) -> c
+javax.activation.MimeTypeParseException -> javax.activation.MimeTypeParseException:
+javax.activation.MimetypesFileTypeMap -> javax.activation.MimetypesFileTypeMap:
+    com.sun.activation.registries.MimeTypeFile defDB -> a
+    com.sun.activation.registries.MimeTypeFile[] DB -> b
+    java.lang.String defaultType -> c
+    com.sun.activation.registries.MimeTypeFile loadResource(java.lang.String) -> a
+    void loadAllResources(java.util.Vector,java.lang.String) -> a
+    com.sun.activation.registries.MimeTypeFile loadFile(java.lang.String) -> b
+    java.lang.String getContentType(java.io.File) -> a
+    java.lang.String getContentType(java.lang.String) -> c
+javax.activation.ObjectDataContentHandler -> javax.activation.ObjectDataContentHandler:
+    myjava.awt.datatransfer.DataFlavor[] transferFlavors -> a
+    java.lang.Object obj -> b
+    java.lang.String mimeType -> c
+    javax.activation.DataContentHandler dch -> d
+    javax.activation.DataContentHandler getDCH() -> a
+    java.lang.Object getContent(javax.activation.DataSource) -> a
+    void writeTo(java.lang.Object,java.lang.String,java.io.OutputStream) -> a
+javax.activation.SecuritySupport -> javax.activation.SecuritySupport:
+    java.lang.ClassLoader getContextClassLoader() -> a
+    java.io.InputStream getResourceAsStream(java.lang.Class,java.lang.String) -> a
+    java.net.URL[] getResources(java.lang.ClassLoader,java.lang.String) -> a
+    java.net.URL[] getSystemResources(java.lang.String) -> a
+    java.io.InputStream openStream(java.net.URL) -> a
+javax.activation.SecuritySupport$1 -> javax.activation.SecuritySupport$1:
+    java.lang.Object run() -> run
+javax.activation.SecuritySupport$2 -> javax.activation.SecuritySupport$2:
+    java.lang.Class val$c -> a
+    java.lang.String val$name -> b
+    java.lang.Object run() -> run
+javax.activation.SecuritySupport$3 -> javax.activation.SecuritySupport$3:
+    java.lang.ClassLoader val$cl -> a
+    java.lang.String val$name -> b
+    java.lang.Object run() -> run
+javax.activation.SecuritySupport$4 -> javax.activation.SecuritySupport$4:
+    java.lang.String val$name -> a
+    java.lang.Object run() -> run
+javax.activation.SecuritySupport$5 -> javax.activation.SecuritySupport$5:
+    java.net.URL val$url -> a
+    java.lang.Object run() -> run
+javax.activation.URLDataSource -> javax.activation.URLDataSource:
+    java.net.URL url -> a
+    java.net.URLConnection url_conn -> b
+    java.lang.String getContentType() -> b
+    java.lang.String getName() -> c
+    java.io.InputStream getInputStream() -> a
+javax.activation.UnsupportedDataTypeException -> javax.activation.UnsupportedDataTypeException:
+javax.mail.Address -> javax.mail.Address:
+    java.lang.String getType() -> a
+    java.lang.String toString() -> toString
+javax.mail.AuthenticationFailedException -> javax.mail.AuthenticationFailedException:
+javax.mail.Authenticator -> javax.mail.Authenticator:
+    java.net.InetAddress requestingSite -> a
+    int requestingPort -> b
+    java.lang.String requestingProtocol -> c
+    java.lang.String requestingPrompt -> d
+    java.lang.String requestingUserName -> e
+    javax.mail.PasswordAuthentication requestPasswordAuthentication$35bf03(java.net.InetAddress,int,java.lang.String,java.lang.String) -> a
+    javax.mail.PasswordAuthentication getPasswordAuthentication() -> a
+javax.mail.BodyPart -> javax.mail.BodyPart:
+    javax.mail.Multipart parent -> a
+    void setParent(javax.mail.Multipart) -> a
+javax.mail.EventQueue -> javax.mail.EventQueue:
+    javax.mail.EventQueue$QueueElement head -> a
+    javax.mail.EventQueue$QueueElement tail -> b
+    java.lang.Thread qThread -> c
+    void enqueue(javax.mail.event.MailEvent,java.util.Vector) -> a
+    javax.mail.EventQueue$QueueElement dequeue() -> a
+    void run() -> run
+javax.mail.EventQueue$QueueElement -> javax.mail.EventQueue$QueueElement:
+    javax.mail.EventQueue$QueueElement next -> a
+    javax.mail.EventQueue$QueueElement prev -> b
+    javax.mail.event.MailEvent event -> c
+    java.util.Vector vector -> d
+javax.mail.FetchProfile -> javax.mail.FetchProfile:
+    java.util.Vector specials -> a
+    java.util.Vector headers -> b
+javax.mail.FetchProfile$Item -> javax.mail.FetchProfile$Item:
+    javax.mail.FetchProfile$Item ENVELOPE -> a
+    javax.mail.FetchProfile$Item CONTENT_INFO -> b
+    javax.mail.FetchProfile$Item FLAGS -> c
+    java.lang.String name -> d
+javax.mail.Flags -> javax.mail.Flags:
+    int system_flags -> a
+    java.util.Hashtable user_flags -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.Object clone() -> clone
+javax.mail.Flags$Flag -> javax.mail.Flags$Flag:
+    javax.mail.Flags$Flag ANSWERED -> a
+    javax.mail.Flags$Flag DELETED -> b
+    javax.mail.Flags$Flag DRAFT -> c
+    javax.mail.Flags$Flag FLAGGED -> d
+    javax.mail.Flags$Flag RECENT -> e
+    javax.mail.Flags$Flag SEEN -> f
+    javax.mail.Flags$Flag USER -> g
+    int bit -> h
+    int access$0(javax.mail.Flags$Flag) -> a
+javax.mail.Folder -> javax.mail.Folder:
+    javax.mail.EventQueue q -> a
+    java.lang.Object qLock -> b
+    java.lang.String getFullName() -> a
+    void finalize() -> finalize
+    java.lang.String toString() -> toString
+javax.mail.Folder$TerminatorEvent -> javax.mail.Folder$TerminatorEvent:
+    void dispatch$5d527811() -> a
+javax.mail.FolderClosedException -> javax.mail.FolderClosedException:
+javax.mail.FolderNotFoundException -> javax.mail.FolderNotFoundException:
+javax.mail.Header -> javax.mail.Header:
+    java.lang.String name -> a
+    java.lang.String value -> b
+    java.lang.String getName() -> a
+    java.lang.String getValue() -> b
+javax.mail.IllegalWriteException -> javax.mail.IllegalWriteException:
+javax.mail.Message -> javax.mail.Message:
+    int msgnum -> b
+    boolean expunged -> c
+    javax.mail.Folder folder -> d
+    javax.mail.Session session -> a
+    void setFrom(javax.mail.Address) -> a
+    javax.mail.Address[] getRecipients(javax.mail.Message$RecipientType) -> a
+    javax.mail.Address[] getAllRecipients() -> b
+    void setRecipients(javax.mail.Message$RecipientType,javax.mail.Address[]) -> a
+    void setSubject(java.lang.String) -> a_
+    void setSentDate(java.util.Date) -> a
+    void saveChanges() -> c
+javax.mail.Message$RecipientType -> javax.mail.Message$RecipientType:
+    javax.mail.Message$RecipientType TO -> b
+    javax.mail.Message$RecipientType CC -> c
+    javax.mail.Message$RecipientType BCC -> d
+    java.lang.String type -> a
+    java.lang.String toString() -> toString
+javax.mail.MessageAware -> javax.mail.MessageAware:
+javax.mail.MessageContext -> javax.mail.MessageContext:
+javax.mail.MessageRemovedException -> javax.mail.MessageRemovedException:
+javax.mail.MessagingException -> javax.mail.MessagingException:
+    java.lang.Exception next -> a
+    java.lang.Throwable getCause() -> getCause
+    boolean setNextException(java.lang.Exception) -> a
+    java.lang.String toString() -> toString
+javax.mail.MethodNotSupportedException -> javax.mail.MethodNotSupportedException:
+javax.mail.Multipart -> javax.mail.Multipart:
+    java.util.Vector parts -> a
+    java.lang.String contentType -> b
+    javax.mail.Part parent -> c
+    java.lang.String getContentType() -> b
+    void addBodyPart(javax.mail.BodyPart) -> a
+    void setParent(javax.mail.Part) -> a
+javax.mail.MultipartDataSource -> javax.mail.MultipartDataSource:
+javax.mail.NoSuchProviderException -> javax.mail.NoSuchProviderException:
+javax.mail.Part -> javax.mail.Part:
+    java.lang.String getContentType() -> a_
+    javax.activation.DataHandler getDataHandler() -> e
+    void setContent(java.lang.Object,java.lang.String) -> a
+    void setContent(javax.mail.Multipart) -> b
+    java.lang.String[] getHeader(java.lang.String) -> a
+    void setHeader(java.lang.String,java.lang.String) -> b
+    void removeHeader(java.lang.String) -> b
+javax.mail.PasswordAuthentication -> javax.mail.PasswordAuthentication:
+    java.lang.String userName -> a
+    java.lang.String password -> b
+    java.lang.String getUserName() -> a
+javax.mail.Provider -> javax.mail.Provider:
+    javax.mail.Provider$Type type -> a
+    java.lang.String protocol -> b
+    java.lang.String className -> c
+    java.lang.String vendor -> d
+    java.lang.String version -> e
+    javax.mail.Provider$Type getType() -> a
+    java.lang.String getProtocol() -> b
+    java.lang.String getClassName() -> c
+    java.lang.String toString() -> toString
+javax.mail.Provider$Type -> javax.mail.Provider$Type:
+    javax.mail.Provider$Type STORE -> a
+    javax.mail.Provider$Type TRANSPORT -> b
+    java.lang.String type -> c
+    java.lang.String toString() -> toString
+javax.mail.Quota -> javax.mail.Quota:
+javax.mail.Quota$Resource -> javax.mail.Quota$Resource:
+javax.mail.QuotaAwareStore -> javax.mail.QuotaAwareStore:
+javax.mail.ReadOnlyFolderException -> javax.mail.ReadOnlyFolderException:
+javax.mail.SendFailedException -> javax.mail.SendFailedException:
+    javax.mail.Address[] invalid -> a
+    javax.mail.Address[] validSent -> b
+    javax.mail.Address[] validUnsent -> c
+    javax.mail.Address[] getValidSentAddresses() -> a
+    javax.mail.Address[] getValidUnsentAddresses() -> b
+    javax.mail.Address[] getInvalidAddresses() -> c
+javax.mail.Service -> javax.mail.Service:
+    javax.mail.Session session -> a
+    javax.mail.URLName url -> b
+    boolean debug -> c
+    boolean connected -> d
+    java.util.Vector connectionListeners -> e
+    javax.mail.EventQueue q -> f
+    java.lang.Object qLock -> g
+    void connect() -> a
+    void connect(java.lang.String,int,java.lang.String,java.lang.String) -> a
+    boolean isConnected() -> c
+    void setConnected$1385ff() -> d
+    void close() -> b
+    javax.mail.URLName getURLName() -> e
+    void setURLName(javax.mail.URLName) -> a
+    void notifyConnectionListeners$13462e() -> f
+    java.lang.String toString() -> toString
+    void terminateQueue() -> g
+    void finalize() -> finalize
+javax.mail.Service$TerminatorEvent -> javax.mail.Service$TerminatorEvent:
+    void dispatch$5d527811() -> a
+javax.mail.Session -> javax.mail.Session:
+    java.util.Properties props -> a
+    javax.mail.Authenticator authenticator -> b
+    java.util.Hashtable authTable -> c
+    boolean debug -> d
+    java.io.PrintStream out -> e
+    java.util.Vector providers -> f
+    java.util.Hashtable providersByProtocol -> g
+    java.util.Hashtable providersByClassName -> h
+    java.util.Properties addressMap -> i
+    javax.mail.Session defaultSession -> j
+    javax.mail.Session getDefaultInstance(java.util.Properties,javax.mail.Authenticator) -> a
+    java.io.PrintStream getDebugOut() -> a
+    javax.mail.Provider getProvider(java.lang.String) -> b
+    javax.mail.Transport getTransport(javax.mail.Address) -> a
+    javax.mail.Transport getTransport(javax.mail.Provider,javax.mail.URLName) -> a
+    java.lang.Object getService(javax.mail.Provider,javax.mail.URLName) -> b
+    javax.mail.PasswordAuthentication getPasswordAuthentication(javax.mail.URLName) -> a
+    javax.mail.PasswordAuthentication requestPasswordAuthentication$35bf03(java.net.InetAddress,int,java.lang.String,java.lang.String) -> a
+    java.lang.String getProperty(java.lang.String) -> a
+    void addProvider(javax.mail.Provider) -> a
+    void loadFile(java.lang.String,javax.mail.StreamLoader) -> a
+    void loadResource(java.lang.String,java.lang.Class,javax.mail.StreamLoader) -> a
+    void loadAllResources(java.lang.String,java.lang.Class,javax.mail.StreamLoader) -> b
+    void pr(java.lang.String) -> c
+    java.lang.ClassLoader getContextClassLoader() -> b
+    java.io.InputStream getResourceAsStream(java.lang.Class,java.lang.String) -> a
+    java.io.InputStream openStream(java.net.URL) -> a
+    void access$0(javax.mail.Session,java.io.InputStream) -> a
+    java.util.Properties access$1(javax.mail.Session) -> a
+javax.mail.Session$1 -> javax.mail.Session$1:
+    javax.mail.Session this$0 -> a
+    void load(java.io.InputStream) -> a
+javax.mail.Session$2 -> javax.mail.Session$2:
+    javax.mail.Session this$0 -> a
+    void load(java.io.InputStream) -> a
+javax.mail.Session$3 -> javax.mail.Session$3:
+    java.lang.Object run() -> run
+javax.mail.Session$4 -> javax.mail.Session$4:
+    java.lang.Class val$c -> a
+    java.lang.String val$name -> b
+    java.lang.Object run() -> run
+javax.mail.Session$5 -> javax.mail.Session$5:
+    java.lang.ClassLoader val$cl -> a
+    java.lang.String val$name -> b
+    java.lang.Object run() -> run
+javax.mail.Session$6 -> javax.mail.Session$6:
+    java.lang.String val$name -> a
+    java.lang.Object run() -> run
+javax.mail.Session$7 -> javax.mail.Session$7:
+    java.net.URL val$url -> a
+    java.lang.Object run() -> run
+javax.mail.Store -> javax.mail.Store:
+javax.mail.StoreClosedException -> javax.mail.StoreClosedException:
+javax.mail.StreamLoader -> javax.mail.StreamLoader:
+    void load(java.io.InputStream) -> a
+javax.mail.Transport -> javax.mail.Transport:
+    void send(javax.mail.Message) -> a
+javax.mail.UIDFolder -> javax.mail.UIDFolder:
+javax.mail.UIDFolder$FetchProfileItem -> javax.mail.UIDFolder$FetchProfileItem:
+    javax.mail.UIDFolder$FetchProfileItem UID -> a
+javax.mail.URLName -> javax.mail.URLName:
+    java.lang.String fullURL -> a
+    java.lang.String protocol -> b
+    java.lang.String username -> c
+    java.lang.String password -> d
+    java.lang.String host -> e
+    java.net.InetAddress hostAddress -> f
+    boolean hostAddressKnown -> g
+    int port -> h
+    java.lang.String file -> i
+    java.lang.String ref -> j
+    int hashCode -> k
+    boolean doEncode -> l
+    java.util.BitSet dontNeedEncoding -> m
+    java.lang.String toString() -> toString
+    int getPort() -> a
+    java.lang.String getProtocol() -> b
+    java.lang.String getFile() -> c
+    java.lang.String getHost() -> d
+    java.lang.String getUsername() -> e
+    java.lang.String getPassword() -> f
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.net.InetAddress getHostAddress() -> g
+    java.lang.String encode(java.lang.String) -> a
+    java.lang.String _encode(java.lang.String) -> b
+    java.lang.String decode(java.lang.String) -> c
+    int indexOfAny$3b99ba0d(java.lang.String,java.lang.String) -> a
+javax.mail.Version -> javax.mail.Version:
+javax.mail.event.ConnectionEvent -> javax.mail.b.b:
+    int type -> a
+    void dispatch$5d527811() -> a
+javax.mail.event.MailEvent -> javax.mail.b.a:
+    void dispatch$5d527811() -> a
+javax.mail.internet.AddressException -> javax.mail.a.y:
+    java.lang.String ref -> a
+    int pos -> b
+    java.lang.String toString() -> toString
+javax.mail.internet.AsciiOutputStream -> javax.mail.a.n:
+    boolean breakOnNonAscii -> a
+    int ascii -> b
+    int non_ascii -> c
+    int linelen -> d
+    boolean longLine -> e
+    boolean badEOL -> f
+    boolean checkEOL -> g
+    int lastb -> h
+    int ret -> i
+    void write(int) -> write
+    void write(byte[]) -> write
+    void write(byte[],int,int) -> write
+    void check(int) -> a
+    int getAscii() -> a
+javax.mail.internet.ContentDisposition -> javax.mail.a.l:
+    java.lang.String disposition -> a
+    javax.mail.internet.ParameterList list -> b
+    java.lang.String getParameter(java.lang.String) -> a
+    java.lang.String toString() -> toString
+javax.mail.internet.ContentType -> javax.mail.a.w:
+    java.lang.String primaryType -> a
+    java.lang.String subType -> b
+    javax.mail.internet.ParameterList list -> c
+    java.lang.String getParameter(java.lang.String) -> a
+    void setParameter(java.lang.String,java.lang.String) -> a
+    java.lang.String toString() -> toString
+    boolean match(java.lang.String) -> b
+javax.mail.internet.HeaderTokenizer -> javax.mail.a.q:
+    java.lang.String string -> a
+    boolean skipComments -> b
+    java.lang.String delimiters -> c
+    int currentPos -> d
+    int maxPos -> e
+    int nextPos -> f
+    int peekPos -> g
+    javax.mail.internet.HeaderTokenizer$Token EOFToken -> h
+    javax.mail.internet.HeaderTokenizer$Token next() -> a
+    java.lang.String getRemainder() -> b
+    int skipWhiteSpace() -> c
+    java.lang.String filterToken(java.lang.String,int,int) -> a
+javax.mail.internet.HeaderTokenizer$Token -> javax.mail.a.z:
+    int type -> a
+    java.lang.String value -> b
+    int getType() -> a
+    java.lang.String getValue() -> b
+javax.mail.internet.InternetAddress -> javax.mail.a.j:
+    java.lang.String address -> a
+    java.lang.String personal -> b
+    java.lang.String encodedPersonal -> c
+    java.lang.String rfc822phrase -> d
+    java.lang.Object clone() -> clone
+    java.lang.String getType() -> a
+    java.lang.String getAddress() -> b
+    java.lang.String toString() -> toString
+    java.lang.String quotePhrase(java.lang.String) -> a
+    java.lang.String unquote(java.lang.String) -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString(javax.mail.Address[]) -> a
+    javax.mail.internet.InternetAddress getLocalAddress(javax.mail.Session) -> a
+    javax.mail.internet.InternetAddress[] parseHeader(java.lang.String,boolean) -> a
+    javax.mail.internet.InternetAddress[] parse(java.lang.String,boolean,boolean) -> a
+    void checkAddress$44c588bf(java.lang.String,boolean) -> b
+    int indexOfAny(java.lang.String,java.lang.String,int) -> a
+javax.mail.internet.InternetHeaders -> javax.mail.a.aa:
+    java.util.List headers -> a
+    void load(java.io.InputStream) -> a
+    java.lang.String[] getHeader(java.lang.String) -> a
+    java.lang.String getHeader(java.lang.String,java.lang.String) -> a
+    void setHeader(java.lang.String,java.lang.String) -> b
+    void addHeader(java.lang.String,java.lang.String) -> c
+    void removeHeader(java.lang.String) -> b
+    void addHeaderLine(java.lang.String) -> c
+javax.mail.internet.InternetHeaders$InternetHeader -> javax.mail.a.g:
+    java.lang.String line -> b
+    java.lang.String getValue() -> b
+javax.mail.internet.MailDateFormat -> javax.mail.a.x:
+    boolean debug -> a
+    java.util.TimeZone tz -> b
+    java.util.Calendar cal -> c
+    java.lang.StringBuffer format(java.util.Date,java.lang.StringBuffer,java.text.FieldPosition) -> format
+    java.util.Date parse(java.lang.String,java.text.ParsePosition) -> parse
+    java.util.Date parseDate(char[],java.text.ParsePosition,boolean) -> a
+    java.util.Date ourUTC(int,int,int,int,int,int,int,boolean) -> a
+    void setCalendar(java.util.Calendar) -> setCalendar
+    void setNumberFormat(java.text.NumberFormat) -> setNumberFormat
+javax.mail.internet.MailDateParser -> javax.mail.a.u:
+    int index -> a
+    char[] orig -> b
+    void skipWhiteSpace() -> a
+    boolean skipIfChar(char) -> a
+    int parseNumber() -> b
+    int parseMonth() -> c
+    int parseAlphaTimeZone() -> d
+javax.mail.internet.MimeBodyPart -> javax.mail.a.d:
+    boolean setDefaultTextCharset -> a
+    boolean setContentTypeFileName -> b
+    boolean encodeFileName -> c
+    boolean decodeFileName -> d
+    boolean cacheMultipart -> e
+    javax.activation.DataHandler dh -> f
+    byte[] content -> g
+    java.io.InputStream contentStream -> h
+    javax.mail.internet.InternetHeaders headers -> i
+    java.lang.Object cachedContent -> j
+    java.lang.String getContentType() -> a_
+    java.lang.String getEncoding() -> a
+    java.lang.String getFileName() -> c
+    java.io.InputStream getContentStream() -> d
+    javax.activation.DataHandler getDataHandler() -> e
+    void setDataHandler(javax.activation.DataHandler) -> a
+    void setContent(java.lang.Object,java.lang.String) -> a
+    void setContent(javax.mail.Multipart) -> b
+    java.lang.String[] getHeader(java.lang.String) -> a
+    java.lang.String getHeader(java.lang.String,java.lang.String) -> a
+    void setHeader(java.lang.String,java.lang.String) -> b
+    void removeHeader(java.lang.String) -> b
+    void updateHeaders() -> f
+    java.lang.String getFileName(javax.mail.internet.MimePart) -> d
+    java.lang.String getEncoding(javax.mail.internet.MimePart) -> a
+    void updateHeaders(javax.mail.internet.MimePart) -> b
+    void invalidateContentHeaders(javax.mail.internet.MimePart) -> c
+javax.mail.internet.MimeMessage -> javax.mail.a.m:
+    javax.activation.DataHandler dh -> c
+    byte[] content -> d
+    java.io.InputStream contentStream -> e
+    javax.mail.internet.InternetHeaders headers -> f
+    javax.mail.Flags flags -> g
+    boolean modified -> h
+    boolean saved -> i
+    java.lang.Object cachedContent -> b
+    javax.mail.internet.MailDateFormat mailDateFormat -> j
+    boolean strict -> k
+    javax.mail.Flags answeredFlag -> l
+    void setFrom(javax.mail.Address) -> a
+    javax.mail.Address[] getRecipients(javax.mail.Message$RecipientType) -> a
+    javax.mail.Address[] getAllRecipients() -> b
+    void setRecipients(javax.mail.Message$RecipientType,javax.mail.Address[]) -> a
+    void setSubject(java.lang.String) -> a_
+    void setSentDate(java.util.Date) -> a
+    java.lang.String getContentType() -> a_
+    java.lang.String getEncoding() -> a
+    java.lang.String getHeaderName(javax.mail.Message$RecipientType) -> b
+    java.io.InputStream getContentStream() -> d
+    javax.activation.DataHandler getDataHandler() -> e
+    void setDataHandler(javax.activation.DataHandler) -> a
+    void setContent(java.lang.Object,java.lang.String) -> a
+    void setContent(javax.mail.Multipart) -> b
+    java.lang.String[] getHeader(java.lang.String) -> a
+    java.lang.String getHeader(java.lang.String,java.lang.String) -> a
+    void setHeader(java.lang.String,java.lang.String) -> b
+    void removeHeader(java.lang.String) -> b
+    void saveChanges() -> c
+javax.mail.internet.MimeMessage$RecipientType -> javax.mail.a.f:
+    javax.mail.internet.MimeMessage$RecipientType NEWSGROUPS -> a
+javax.mail.internet.MimeMultipart -> javax.mail.a.b:
+    boolean ignoreMissingEndBoundary -> c
+    boolean ignoreMissingBoundaryParameter -> d
+    boolean bmparse -> e
+    javax.activation.DataSource ds -> f
+    boolean parsed -> g
+    boolean complete -> h
+    java.lang.String preamble -> i
+    void addBodyPart(javax.mail.BodyPart) -> a
+    void updateHeaders() -> a
+    void parse() -> c
+    void parsebm() -> d
+    int readFully(java.io.InputStream,byte[],int,int) -> a
+    void skipFully(java.io.InputStream,long) -> a
+    javax.mail.internet.InternetHeaders createInternetHeaders(java.io.InputStream) -> a
+    javax.mail.internet.MimeBodyPart createMimeBodyPart(javax.mail.internet.InternetHeaders,byte[]) -> a
+    javax.mail.internet.MimeBodyPart createMimeBodyPart(java.io.InputStream) -> b
+javax.mail.internet.MimePart -> javax.mail.a.a:
+    java.lang.String getHeader(java.lang.String,java.lang.String) -> a
+    java.lang.String getEncoding() -> a
+javax.mail.internet.MimePartDataSource -> javax.mail.a.h:
+    javax.mail.internet.MimePart part -> a
+    boolean ignoreMultipartEncoding -> b
+    java.io.InputStream getInputStream() -> a
+    java.lang.String restrictEncoding(java.lang.String,javax.mail.internet.MimePart) -> a
+    java.lang.String getContentType() -> b
+    java.lang.String getName() -> c
+javax.mail.internet.MimeUtility -> javax.mail.a.k:
+    boolean decodeStrict -> a
+    boolean encodeEolStrict -> b
+    boolean foldEncodedWords -> c
+    boolean foldText -> d
+    java.lang.String defaultJavaCharset -> e
+    java.lang.String defaultMIMECharset -> f
+    java.util.Hashtable mime2java -> g
+    java.util.Hashtable java2mime -> h
+    java.lang.String getEncoding(javax.activation.DataSource) -> a
+    java.lang.String getEncoding(javax.activation.DataHandler) -> a
+    java.io.InputStream decode(java.io.InputStream,java.lang.String) -> a
+    java.lang.String encodeText$e96e693$7157d249(java.lang.String) -> a
+    java.lang.String decodeText(java.lang.String) -> b
+    java.lang.String encodeWord(java.lang.String) -> c
+    java.lang.String encodeWord$2107c6e1$166451eb(java.lang.String,boolean) -> a
+    void doEncode(java.lang.String,boolean,java.lang.String,int,java.lang.String,boolean,boolean,java.lang.StringBuffer) -> a
+    java.lang.String decodeWord(java.lang.String) -> e
+    java.lang.String decodeInnerWords(java.lang.String) -> f
+    java.lang.String quote(java.lang.String,java.lang.String) -> a
+    java.lang.String fold(int,java.lang.String) -> a
+    java.lang.String javaCharset(java.lang.String) -> d
+    java.lang.String getDefaultJavaCharset() -> b
+    java.lang.String getDefaultMIMECharset() -> a
+    void loadMappings(com.sun.mail.util.LineInputStream,java.util.Hashtable) -> a
+    int checkAscii$4dfc9d1e(java.io.InputStream,boolean) -> a
+    boolean nonascii(int) -> a
+javax.mail.internet.MimeUtility$1NullInputStream -> javax.mail.a.i:
+    int read() -> read
+javax.mail.internet.NewsAddress -> javax.mail.a.v:
+    java.lang.String newsgroup -> a
+    java.lang.String host -> b
+    java.lang.String getType() -> a
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+javax.mail.internet.ParameterList -> javax.mail.a.o:
+    java.util.Map list -> a
+    java.util.Set multisegmentNames -> b
+    java.util.Map slist -> c
+    java.lang.String lastName -> d
+    boolean encodeParameters -> e
+    boolean decodeParameters -> f
+    boolean decodeParametersStrict -> g
+    boolean applehack -> h
+    char[] hex -> i
+    void putEncodedName(java.lang.String,java.lang.String) -> b
+    void combineMultisegmentNames(boolean) -> a
+    java.lang.String get(java.lang.String) -> a
+    void set(java.lang.String,java.lang.String) -> a
+    java.lang.String toString() -> toString
+    java.lang.String toString(int) -> a
+    javax.mail.internet.ParameterList$Value decodeValue(java.lang.String) -> c
+    java.lang.String decodeBytes(java.lang.String,java.lang.String) -> c
+    java.lang.String access$0(java.lang.String) -> b
+javax.mail.internet.ParameterList$MultiValue -> javax.mail.a.p:
+    java.lang.String value -> a
+javax.mail.internet.ParameterList$ToStringBuffer -> javax.mail.a.e:
+    int used -> a
+    java.lang.StringBuffer sb -> b
+    void addNV(java.lang.String,java.lang.String) -> a
+    java.lang.String toString() -> toString
+javax.mail.internet.ParameterList$Value -> javax.mail.a.c:
+    java.lang.String value -> a
+    java.lang.String charset -> b
+    java.lang.String encodedValue -> c
+javax.mail.internet.ParseException -> javax.mail.a.t:
+javax.mail.internet.SharedInputStream -> javax.mail.a.s:
+    long getPosition() -> a
+    java.io.InputStream newStream(long,long) -> a
+javax.mail.internet.UniqueValue -> javax.mail.a.r:
+    int id -> a
+    java.lang.String getUniqueBoundaryValue() -> a
+    java.lang.String getUniqueMessageIDValue(javax.mail.Session) -> a
+    int getUniqueId() -> b
+javax.mail.util.SharedByteArrayInputStream -> javax.mail.c.a:
+    int start -> a
+    long getPosition() -> a
+    java.io.InputStream newStream(long,long) -> a
+myjava.awt.datatransfer.DataFlavor -> myjava.awt.datatransfer.DataFlavor:
+    myjava.awt.datatransfer.DataFlavor plainTextFlavor -> a
+    myjava.awt.datatransfer.DataFlavor stringFlavor -> b
+    myjava.awt.datatransfer.DataFlavor javaFileListFlavor -> c
+    java.lang.String[] sortedTextFlavors -> d
+    myjava.awt.datatransfer.DataFlavor plainUnicodeFlavor -> e
+    java.lang.String humanPresentableName -> f
+    java.lang.Class representationClass -> g
+    myjava.awt.datatransfer.MimeTypeProcessor$MimeType mimeInfo -> h
+    boolean isCharsetSupported(java.lang.String) -> a
+    java.lang.String getCharset() -> c
+    java.lang.String getMimeType() -> a
+    java.lang.Class getRepresentationClass() -> b
+    boolean isMimeTypeEqual(myjava.awt.datatransfer.DataFlavor) -> a
+    void writeExternal(java.io.ObjectOutput) -> writeExternal
+    void readExternal(java.io.ObjectInput) -> readExternal
+    java.lang.Object clone() -> clone
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+    boolean equals(myjava.awt.datatransfer.DataFlavor) -> b
+    int hashCode() -> hashCode
+    boolean isUnicodeFlavor() -> d
+myjava.awt.datatransfer.MimeTypeProcessor -> myjava.awt.datatransfer.MimeTypeProcessor:
+    myjava.awt.datatransfer.MimeTypeProcessor instance -> a
+    myjava.awt.datatransfer.MimeTypeProcessor$MimeType parse(java.lang.String) -> a
+    void retrieveParams(java.lang.String,myjava.awt.datatransfer.MimeTypeProcessor$MimeType,myjava.awt.datatransfer.MimeTypeProcessor$StringPosition) -> a
+    java.lang.String retrieveQuoted(java.lang.String,myjava.awt.datatransfer.MimeTypeProcessor$StringPosition) -> a
+    java.lang.String retrieveToken(java.lang.String,myjava.awt.datatransfer.MimeTypeProcessor$StringPosition) -> b
+    int getNextMeaningfulIndex(java.lang.String,int) -> a
+    boolean isTSpecialChar(char) -> a
+    boolean isMeaningfulChar(char) -> b
+myjava.awt.datatransfer.MimeTypeProcessor$MimeType -> myjava.awt.datatransfer.MimeTypeProcessor$MimeType:
+    java.lang.String primaryType -> a
+    java.lang.String subType -> b
+    java.util.Hashtable parameters -> c
+    java.util.Hashtable systemParameters -> d
+    boolean equals(myjava.awt.datatransfer.MimeTypeProcessor$MimeType) -> a
+    java.lang.String getPrimaryType() -> a
+    java.lang.String getSubType() -> b
+    java.lang.String getFullType() -> c
+    java.lang.String getParameter(java.lang.String) -> a
+    void addParameter(java.lang.String,java.lang.String) -> a
+    java.lang.Object clone() -> clone
+    java.util.Hashtable access$0(myjava.awt.datatransfer.MimeTypeProcessor$MimeType) -> b
+    void access$1(myjava.awt.datatransfer.MimeTypeProcessor$MimeType,java.lang.String) -> a
+    void access$2(myjava.awt.datatransfer.MimeTypeProcessor$MimeType,java.lang.String) -> b
+    void access$3(myjava.awt.datatransfer.MimeTypeProcessor$MimeType,java.util.Hashtable) -> a
+    void access$4(myjava.awt.datatransfer.MimeTypeProcessor$MimeType,java.util.Hashtable) -> b
+myjava.awt.datatransfer.MimeTypeProcessor$StringPosition -> myjava.awt.datatransfer.MimeTypeProcessor$StringPosition:
+    int i -> a
+myjava.awt.datatransfer.Transferable -> myjava.awt.datatransfer.Transferable:
+myjava.awt.datatransfer.UnsupportedFlavorException -> myjava.awt.datatransfer.UnsupportedFlavorException:
+org.apache.harmony.awt.ContextStorage -> a.a.a.a.b:
+    boolean shutdownPending -> a
+    org.apache.harmony.awt.ContextStorage globalContext -> b
+    org.apache.harmony.awt.datatransfer.DTK dtk -> c
+    java.lang.Object contextLock -> d
+    void setDTK(org.apache.harmony.awt.datatransfer.DTK) -> a
+    org.apache.harmony.awt.datatransfer.DTK getDTK() -> a
+    java.lang.Object getContextLock() -> b
+    boolean shutdownPending() -> c
+org.apache.harmony.awt.ContextStorage$ContextLock -> a.a.a.a.a:
+    org.apache.harmony.awt.ContextStorage this$0 -> a
+org.apache.harmony.awt.datatransfer.DTK -> a.a.a.a.b.c:
+    org.apache.harmony.awt.datatransfer.NativeClipboard nativeClipboard -> a
+    org.apache.harmony.awt.datatransfer.NativeClipboard nativeSelection -> b
+    org.apache.harmony.awt.datatransfer.DataTransferThread dataTransferThread -> c
+    org.apache.harmony.awt.datatransfer.DTK getDTK() -> a
+    org.apache.harmony.awt.datatransfer.DTK createDTK() -> b
+org.apache.harmony.awt.datatransfer.DataTransferThread -> a.a.a.a.b.a:
+    org.apache.harmony.awt.datatransfer.DTK dtk -> a
+    void run() -> run
+    void start() -> start
+org.apache.harmony.awt.datatransfer.NativeClipboard -> a.a.a.a.b.b:
+org.apache.harmony.awt.internal.nls.Messages -> a.a.a.a.a.a.a:
+    java.util.ResourceBundle bundle -> a
+    java.lang.String getString(java.lang.String) -> a
+    java.lang.String getString(java.lang.String,java.lang.Object) -> a
+    java.lang.String getString(java.lang.String,java.lang.Object[]) -> a
+    java.util.ResourceBundle setLocale(java.util.Locale,java.lang.String) -> a
+org.apache.harmony.awt.internal.nls.Messages$1 -> a.a.a.a.a.a.b:
+    java.lang.String val$resource -> a
+    java.util.Locale val$locale -> b
+    java.lang.ClassLoader val$loader -> c
+    java.lang.Object run() -> run
+org.apache.harmony.misc.SystemUtils -> a.a.a.b.a:
+    int os -> a
+    int arc -> b
+    int getOS() -> a

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutToolbar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/tab_bar"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/btn_index"
+        style="@style/tab_item_background"
+        android:drawableTop="@drawable/toolbar_index_bg"
+        android:text="@string/index"
+        android:textSize="11.0sp" />
+    <Button
+        android:id="@+id/btn_channel"
+        style="@style/tab_item_background"
+        android:drawableTop="@drawable/toolbar_channel_bg"
+        android:text="@string/channel"
+        android:textSize="11.0sp" />
+    <Button
+        android:id="@+id/btn_watch"
+        style="@style/tab_item_background"
+        android:drawableTop="@drawable/toolbar_search_bg"
+        android:text="@string/search"
+        android:textSize="11.0sp" />
+    <Button
+        android:id="@+id/btn_more"
+        style="@style/tab_item_background"
+        android:drawableTop="@drawable/toolbar_more_bg"
+        android:text="@string/more"
+        android:textSize="11.0sp" />
+</LinearLayout>

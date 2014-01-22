@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_flipper01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_main_bg"
+        android:orientation="vertical" >
+        <include 
+            android:id="@+id/titlebar"
+            layout="@layout/titlebar" />
+        <RelativeLayout
+            android:id="@+id/homeListLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/big_bg" >
+            <ListView
+                android:id="@+id/video_list"
+                style="@style/listview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/titlebar"
+                android:background="@drawable/bgbitmap" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

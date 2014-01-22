@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/big_bg" >
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:paddingRight="10.0sp"
+            android:text="@string/selectUploadVideo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlebar_title_text_size" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/listview"
+        android:layout_below="@id/title"
+        android:background="@drawable/bgbitmap"
+        android:layout_centerHorizontal="true" >
+    </ListView>
+
+</RelativeLayout>

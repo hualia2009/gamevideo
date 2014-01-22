@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgbitmap"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/editBar"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/loginbar_bg"
+        android:gravity="center_vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center_vertical"
+            android:text="播放记录"
+            android:textSize="16.0sp" />
+        <Button
+            android:id="@+id/imgbtnEdit"
+            android:layout_width="55.0dip"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/btn_red_bg"
+            android:text="编辑"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/history_list_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/editBar"
+        android:background="@drawable/bgbitmap"
+        android:orientation="vertical" >
+        <ListView
+            android:id="@+id/history_video_list"
+            style="@style/listview"
+            android:background="@drawable/bgbitmap" >
+        </ListView>
+    </LinearLayout>
+</RelativeLayout>

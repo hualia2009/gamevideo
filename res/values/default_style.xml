@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<style name="toolbar_button">
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_width">60dip</item>
+		<item name="android:layout_gravity">center_vertical|center_horizontal</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:background">#00000000</item>
+	</style>
+	<style name="image_button">
+		<item name="android:background">#00000000</item>
+		<item name="android:padding">0dip</item>
+	</style>
+	<style name="detail_text">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_marginLeft">12dip</item>
+	</style>
+	<style name="channel_text">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_marginLeft">18dip</item>
+	</style>
+	<style name="listview">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@color/color_main_bg</item>
+		<item name="android:scrollbarAlwaysDrawVerticalTrack">false</item>
+		<item name="android:fadeScrollbars">true</item>
+		<item name="android:scrollbarFadeDuration">500</item>
+		<item name="android:cacheColorHint">#00000000</item>
+	</style>
+</resources>

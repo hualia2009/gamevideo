@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgbitmap"
+     >
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/more_titlebar" />
+     <ScrollView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/titlebar">
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+       
+        <TextView
+            android:id="@+id/about_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dip"
+            android:textColor="#efefef"
+            android:textSize="15dip"
+            android:gravity="center"
+            android:text="@string/about_version"
+             />
+        <TextView
+            android:id="@+id/about_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_version"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ff6600"
+            android:textSize="20dip"
+            android:text="@string/about_year"
+           />
+        <TextView
+            android:id="@+id/about_content"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_time"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:textSize="15dip" />
+        <TextView
+            android:id="@+id/about_url"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_below="@id/about_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="@string/url_content"
+            android:visibility="gone"
+            android:textSize="15dip" />
+        <TextView
+            android:id="@+id/about_copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_url"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dip"
+            android:gravity="center"
+            android:text="@string/about_copyright"
+            android:textSize="15dip" />
+        <ImageView
+            android:id="@+id/about_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_copyright"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dip"
+            android:src="@drawable/bannerlogo" />
+    </RelativeLayout>
+  </ScrollView>
+</RelativeLayout>

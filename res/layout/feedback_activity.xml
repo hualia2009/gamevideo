@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical" >
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/more_titlebar" />
+     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/bgbitmap" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10.0dip" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/appname"
+            android:layout_marginTop="5.0dip"
+            android:lineSpacingExtra="5.0dip"
+            android:textColor="@color/white"
+            android:textSize="16.0dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="left"
+            android:text="@string/feed_contact"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+        <EditText
+            android:id="@+id/txtTelephone"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:hint=""
+            android:paddingLeft="15.0dip" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:gravity="left"
+            android:text="@string/feed_content"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+        <EditText
+            android:id="@+id/txtContent"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:hint=""
+            android:paddingLeft="15.0dip" />
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:text="提交反馈"
+            android:textSize="16.0sp"
+            android:textColor="@drawable/white"
+            android:background="@drawable/btn_red_long_bg" />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

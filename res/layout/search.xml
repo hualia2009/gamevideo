@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgbitmap"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:id="@+id/searchBar"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/loginbar_bg"
+        android:gravity="center_vertical" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_weight="5"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+             >
+
+            <ImageView
+                android:id="@+id/imgSearchbeginImg"
+                android:layout_width="22.0dip"
+                android:layout_height="22.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:background="@drawable/ico_search"
+                android:contentDescription="@string/desc"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:focusable="false" />
+
+            <EditText
+                android:id="@+id/searchContent"
+                android:layout_width="fill_parent"
+                android:layout_height="35.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="@string/search_content"
+                android:maxLength="100"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/imgSearchbeginImg"
+                android:text=""
+                android:textColor="@color/black" />
+            <ImageButton
+                android:id="@+id/searchDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_search_delete"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="55.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/btn_red_long_bg"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/miniAdLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/searchBar"
+        tools:ignore="Orientation" />
+
+    <LinearLayout
+        android:id="@id/hotkeyLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/miniAdLinearLayout"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <GridView
+            android:id="@id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:horizontalSpacing="8.0dip"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:verticalSpacing="30dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_list_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/miniAdLinearLayout" >
+
+        <TextView
+            android:id="@id/total_txt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10.0dip"
+            android:textSize="16.0sp" />
+
+        <ListView
+            android:id="@+id/search_video_list"
+            style="@style/listview"
+            android:layout_below="@id/total_txt_search"
+            android:background="@drawable/bgbitmap"
+            android:footerDividersEnabled="true" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

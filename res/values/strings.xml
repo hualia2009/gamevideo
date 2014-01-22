@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">游戏视频</string>
+    <string name="app_name">游戏视频</string>
+    <!-- <string name="url_video_index"><![CDATA[http://media.app.bokecc.com/index.php?r=mobile/recommend&page=]]></string> -->
+    <string name="url_video_index">http://search.api.3g.youku.com/videos/search/游戏?pid=69b81504767483cf</string>
+    <string name="url_channels">http://admin.bokecc.com:8080/channels.xml</string>
+    <string name="url_sort">http://m.tangdou.com/api/mostplay/1.htm</string>
+    <string name="url_search">http://search.api.3g.youku.com/videos/search/</string>
+    <string name="url_upgrade">http://admin.bokecc.com:8080/version.xml</string>
+    <string name="url_banner">http://media.app.bokecc.com/index.php?r=mobile/banner</string>
+    <string name="desc">desc</string>
+    <string name="net_error">网络出错啦！重新连接试试～～</string>
+    <string name="most_new">最新</string>
+    <string name="most_hot">最热</string>
+    <string name="channel_fashion">时尚</string>
+    <string name="channel_meishi">美食</string>
+    <string name="channel_health">健身</string>
+    <string name="channel_perform">综艺</string>
+    <string name="channel_yule">娱乐</string>
+    <string name="channel_news">资讯</string>
+    <!-- 频道-最新和最热-url -->
+    <string name="channel_video_url">http://media.app.bokecc.com/index.php?r=mobile/mchannel_video</string>
+    <string name="channel_tag_url"><![CDATA[http://media.app.bokecc.com/index.php?r=mobile/mchannel&page=1]]></string>
+    <!-- 频道-最新-url -->
+    <string name="url_mostnew_fasion">http://m.tangdou.com/api/fashion/</string>
+    <string name="url_mostnew_meishi">http://m.tangdou.com/api/meishi/</string>
+    <string name="url_mostnew_health">http://m.tangdou.com/api/health/</string>
+    <string name="url_mostnew_perform">http://m.tangdou.com/api/perform/</string>
+    <string name="url_mostnew_yule">http://m.tangdou.com/api/yule/</string>
+    <string name="url_mostnew_news">http://m.tangdou.com/api/news/</string>
+    <!-- 排行-最热-url -->
+    <string name="url_mostplay_fasion">http://m.tangdou.com/api/mostplay/fashion/</string>
+    <string name="url_mostplay_meishi">http://m.tangdou.com/api/mostplay/meishi/</string>
+    <string name="url_mostplay_health">http://m.tangdou.com/api/mostplay/health/</string>
+    <string name="url_mostplay_perform">http://m.tangdou.com/api/mostplay/perform/</string>
+    <string name="url_mostplay_yule">http://m.tangdou.com/api/mostplay/yule/</string>
+    <string name="url_mostplay_news">http://m.tangdou.com/api/mostplay/news/</string>
+    <!-- 热门搜索 -->
+    <string name="url_hotkey">http://media.app.bokecc.com/index.php?r=mobile/mkeyword</string>
+    <!-- 邮箱参数 -->
+    <string name="mail_serverhost">smtp.126.com</string>
+    <string name="mail_serverport">25</string>
+    <string name="mail_username">bokecctangdou@126.com</string>
+    <string name="mail_password">bokecc09</string>
+    <string name="mail_from">bokecctangdou@126.com</string>
+    <string name="mail_to">liz@bokecc.com</string>
+    <string name="mail_subject">用户使用糖豆Android客户端反馈邮件</string>
+    <string name="index">首页</string>
+    <string name="channel">频道</string>
+    <string name="sort">排行</string>
+    <string name="search">搜索</string>
+    <string name="downloadwatch">推荐应用</string>
+    <string name="more">更多</string>
+    <string name="loading">正在载入…</string>
+    <color name="color_statistic">#ff6600</color>
+    <color name="color_duration">#ff6600</color>
+    <color name="color_main_bg">#efefef</color>
+    <color name="color_detail_introduce">#ffffff</color>
+    <color name="color_titlebar">#525151</color>
+    <color name="color_welcome_bg">#525151</color>
+    <string name="error_no_network">没有发现网络, 请稍候再试</string>
+    <string name="error_network">您的网络目前不稳定, 请稍候再试</string>
+    <string name="error_system">系统错误, 请重新启动</string>
+    <string name="error">错误</string>
+    <string name="tips">提示</string>
+    <string name="ok">确定</string>
+    <string name="loading_now">正在加载视频文件，请稍候</string>
+    <string name="load_error">抱歉，视频文件加载失败</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="exit">退出应用程序</string>
+    <string name="data_error">数据错误</string>
+    <string name="has_new_version">有新版本可以下载</string>
+    <string name="need_new_version">需要升级到新版本才能观看</string>
+    <string name="newest_version">最新版本</string>
+    <string name="new_features">新增特性</string>
+    <string name="tpl_data">播放:{playtimes} {digg}</string>
+    <string name="tpl_plays">播放</string>
+    <string name="tpl_goback">返回</string>
+    <string name="description">描述</string>
+    <string name="video_error">视频信息有误</string>
+    <string name="main_exit">退出</string>
+    <string name="main_help">帮助</string>
+    <string name="more_favorite">收藏</string>
+    <string name="more_history">历史</string>
+    <string name="detail_share">分享</string>
+    <string name="detail_play">播放</string>
+    <string name="detail_reload">离线观看</string>
+    <string name="feed_contact">联系方式(Email/手机)</string>
+    <string name="feed_loading">正在加载视频文件，请稍候</string>
+    <string name="feed_loading_faile">抱歉，视频文件加载失败</string>
+    <string name="more_declare">声明</string>
+    <string name="about">http://media.app.bokecc.com/index.php?r=mobile/aboutus</string>
+    <string name="about_title">关于</string>
+    <string name="about_version">游戏视频Android客户端V1.0.0</string>
+    <string name="about_year">免责声明</string>
+    <string name="about_copyright">Leslie版权所有</string>
+    <string name="history_clear">清空记录</string>
+    <string name="favorite_edit">编辑</string>
+    <string name="search_content">请输入搜索内容</string>
+    <string name="feed_content">内容</string>
+    <string name="exit_title">您确定要退出游戏视频吗？</string>
+    <string name="detail_shoucang">收藏</string>
+    <string name="url_content"></string>
+    <string name="update_url">http://media.app.bokecc.com/index.php?r=mobile/verjson</string>
+    <string name="update_apk_url">http://admin.bokecc.com/AndroidApp.apk</string>
+    <string name="myupload">上传</string>
+    <string name="favorites">收藏</string>
+    <string name="favorite_record">收藏记录</string>
+    <string name="history">历史</string>
+    <string name="feedback">反馈</string>
+    <string name="history_record">反馈</string>
+    <string name="history_del">全部删除</string>
+    <string name="feedback_declare">感谢您使用糖豆视频Android应用，如果您在使用过程中遇到任何不便或意见和建议都欢迎您反馈给我们。</string>
+    <string name="feedback_way">联系方式(Email/手机)</string>
+    <string name="feedback_content">内容</string>
+    <string name="super_difinition">超清</string>
+    <string name="video_list">剧集列表</string>
+    <string name="difinition_list">清晰度</string>
+    <string name="high_difinition">高清</string>
+    <string name="stand_difinition">标清</string>
+    <string name="low_difinition">流畅</string>
+    <string name="play_record">播放记录</string>
+    <string name="play_header_url">http://v.youku.com/player/getRealM3U8/vid/</string>
+    <string name="uploadvideo">上传视频</string>
+    <string name="title">标题：</string>
+    <string name="introduction">简介：</string>
+    <string name="tag">标签：</string>
+    <string name="selectVideo">选取</string>
+    <string name="shoot">拍摄</string>
+    <string name="uploadManagement">上传管理</string>
+    <string name="uploadVideo">视频上传</string>
+    <string name="selectUploadVideo">选择本地视频</string>
+    
+    <string name="uploadtitle">上传</string>
+    <string name="myUpload">已上传</string>
+    <string name="editUpload">编辑视频</string>
+    <string name="comefrom">发自</string>
+    <string name="yu">于</string>
+    <string name="upload">上传</string>
+    <string name="localUploadTask">正在上传</string>
+    <string name="video_space">视频空间</string>
+    <string name="upload_local">本地上传</string>
+    <string name="upload_no_data">快来上传视频，分享您的快乐时光吧！</string>
+    <string name="shootingVideo">拍摄视频</string>
+    <string name="shootingVideoErr">拍摄的视频信息不正确，请稍后重试！</string>
+    <string name="chooseLocalVideo">选择本地视频</string>
+    <string name="localVideo">本地视频</string>
+    <string name="localVideo_des">上传的视频默认只自己可见</string>
+    <string name="uploading">正在上传</string>
+    <string name="uploadFail">上传失败</string>
+    <string name="uploadPause">上传暂停</string>
+    <string name="task_uploading">上传中</string>
+    <string name="uploadTranscodeSucess_ImageFail">截图失败</string>
+    <string name="uploadTranscoding">正在转码</string>
+    <string name="uploadTranscodeFail">转码失败</string>
+    <string name="uploadAudit">等待审核</string>
+    <string name="uploadAuditDel">审核删除</string>
+    <string name="uploadSuccess">上传成功</string>
+    <string name="noLocalVideo">暂无本地视频</string>
+    <string name="afterShoot">请拍摄视频后上传</string>
+    <string name="acceptandagree">我已接受并同意</string>
+    <string name="upload_protocol">《上传协议》</string>
+      <string name="info">简介：</string>
+    <string name="category">分类：</string>
+    <string name="upload_accept">我已接受并同意</string>
+    <string name="upload_agreement">《上传协议》</string>
+    <string name="edit">编 辑</string>
+    <string name="issue">发 布</string>
+   
+    <string name="preload_offline">正在缓存</string>
+    <string name="preload_local_video">已缓存</string>
+    <string name="preload_no_data">暂无离线缓存</string>
+    <string name="preload_data">缓存视频到本地，无网也能看视频</string>
+    <string name="preload_complete_tv">已完成：</string>
+    <string name="preload_percent_context">0.00</string>
+    <string name="preload_percent_tv">%</string>
+    <string name="play_divider">/</string>
+    
+    <string name="declare_content">使用本产品的用户敬请阅读本声明，您使用本产品的行为将视为对本声明全部内容的认可。
+        除本产品注明之服务条款外，其他一切因使用本产品而引起的任何意外，疏忽，合约毁坏，诽谤，版权或知识产权侵犯及其所
+        造成的损坏，本产品研发方概不负责，亦不承担任何法律责任。本产品仅提供内容聚合服务，本身不产生任何内容。
+        任何透过本产品观看视频，浏览的网页及得到的资讯均来源第三方。本产品聚合的内容来自不受产品研发方控制的第三方，本产品
+        仅对排列，显示及播放方式做了适当改变，以满足有效呈现内容需要。本产品研发方不拥有对内容的所有权。敬请您理解并同意，对
+        他人享有知识产权的内容的观看和使用，完全出于您自己的判断，本产品研发方对此不承担任何责任。
+        本免责声明的解释权与修改权归本软件的研发方。</string>
+    
+</resources>

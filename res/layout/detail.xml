@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/color_main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="47.0dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/bannerlogo" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/detail_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/header"
+        android:background="@drawable/bgbitmap" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dip" >
+
+            <TextView
+                android:id="@+id/detail_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:textColor="@color/color_title"
+                android:textSize="16dip"
+                android:typeface="sans" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/list_divider_line"
+                android:contentDescription="@string/desc" />
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip" >
+
+                <ImageView
+                    android:id="@+id/detail_thumb"
+                    android:layout_width="128dip"
+                    android:layout_height="96dip"
+                    android:layout_marginTop="3dip"
+                    android:background="@drawable/default_thumbnail"
+                    android:contentDescription="@string/desc" />
+
+                <ImageButton
+                    android:id="@id/detail_nplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="45.0dip"
+                    android:background="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/detail_channel"
+                    style="@style/detail_text"
+                    android:layout_toRightOf="@+id/detail_thumb" />
+
+                <TextView
+                    android:id="@+id/detail_plays"
+                    style="@style/detail_text"
+                    android:layout_below="@id/detail_channel"
+                    android:layout_toRightOf="@id/detail_thumb" />
+
+                <TextView
+                    android:id="@+id/detail_duration"
+                    style="@style/detail_text"
+                    android:layout_below="@id/detail_plays"
+                    android:layout_marginTop="4dip"
+                    android:layout_toRightOf="@id/detail_thumb" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detail_duration"
+                    android:layout_marginTop="8dip"
+                    android:layout_toRightOf="@id/detail_thumb"
+                    android:orientation="horizontal" >
+
+                   <!--  <Button
+                        android:id="@+id/btn_download"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="29dp"
+                        android:background="@drawable/btn_red_long_bg"
+                        android:gravity="center"
+                        android:text="离线缓存"
+                        android:textColor="@color/white"
+                        android:textSize="14.0sp" /> -->
+
+                    <!--
+                         <ImageButton
+                        android:id="@id/detail_nplay"
+                        android:layout_width="68.0dip"
+                        android:layout_height="30.0dip"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="15dp"
+                        android:visibility="gone"
+                        android:background="@drawable/imgbtnplay_bg"
+                        android:contentDescription="@string/desc" />
+                    -->
+
+                    <Button
+                        android:id="@+id/btn_mark"
+                        android:layout_width="68.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/btn_red_long_bg"
+                        android:gravity="center"
+                        android:text="@string/more_favorite"
+                        android:textColor="@color/white"
+                        android:textSize="14.0sp" />
+                    <Button
+                        android:id="@+id/detail_play"
+                        android:layout_width="68.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="15dip"
+                        android:layout_toRightOf="@id/btn_mark"
+                        android:background="@drawable/btn_red_long_bg"
+                        android:gravity="center"
+                        android:text="@string/detail_play"
+                        android:textColor="@color/white"
+                        android:textSize="14.0sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="6dip"
+                android:background="@drawable/list_divider_line"
+                android:contentDescription="@string/desc" />
+
+            <LinearLayout
+                android:id="@+id/AdLinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                tools:ignore="Orientation" />
+
+            <LinearLayout
+                android:id="@+id/miniAdLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                tools:ignore="Orientation" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/detail_brief_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:lineSpacingExtra="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/color_detail_introduce"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:id="@+id/detail_longdesc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detail_brief_intro"
+                    android:layout_marginTop="5dip"
+                    android:lineSpacingExtra="5dip"
+                    android:singleLine="false"
+                    android:textColor="@color/color_detail_introduce"
+                    android:textSize="14dip" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

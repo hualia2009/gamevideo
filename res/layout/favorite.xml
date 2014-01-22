@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgbitmap" >
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/more_titlebar" />
+    <RelativeLayout
+        android:id="@+id/setBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/loginbar_bg" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center_vertical"
+            android:text="@string/favorite_record"
+            android:textSize="16.0sp" />
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="55.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/btn_red_long_bg"
+            android:gravity="center"
+            android:text="@string/favorite_edit"
+            android:textColor="@color/white"
+            android:textSize="15.0sp" />
+        <Button
+            android:id="@+id/favourite_clear"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/deleteButton"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/deleteButton"
+            android:background="@drawable/btn_red_long_bg"
+            android:text="@string/history_del"
+            android:textColor="@color/white"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+    	<LinearLayout
+        android:id="@+id/favourite_list_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bgbitmap"
+        android:orientation="vertical" 
+        android:layout_below="@id/setBar">
+    <ListView
+        android:id="@+id/favorite_video_list"
+        style="@style/listview"
+        android:background="@drawable/bgbitmap" >
+    </ListView>
+    </LinearLayout>
+</RelativeLayout>

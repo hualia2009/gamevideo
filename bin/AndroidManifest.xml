@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leslie.gamevideo"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="9" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    
+    <application
+        android:icon="@drawable/icon_tang_new"
+        android:label="@string/app_name"
+        android:theme="@style/common" >
+        
+        <meta-data android:name="APP_ID" android:value="369415babac8c64b0c105771c611deb3"/>
+        <meta-data android:name="APP_PID" android:value="163"/>
+        
+         <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.leslie.gamevideo.activities.LogoActivity"
+            android:allowTaskReparenting="true"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.Main"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.Channel"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/new_stack" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.Search"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/new_stack"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.More"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/new_stack"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.History"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.Favorite"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.About"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.FeedBack"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.Detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/new_stack" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.BaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/new_stack" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.MainTabsActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.VitamioPlayer"
+            android:screenOrientation="landscape"
+            android:theme="@style/new_stack" >
+        </activity>
+        <activity
+            android:name="com.leslie.gamevideo.activities.AppWall"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+</manifest>

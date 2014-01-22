@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videolayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="8.0dip"
+    android:paddingRight="8.0dip"
+    android:paddingTop="8.0dip" >
+    <RelativeLayout
+        android:id="@+id/relaLayTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+        <TextView
+            android:id="@+id/lblVideoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:lines="1"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/upload_photo_image"
+        android:layout_below="@id/relaLayTitle"
+        android:layout_width="80.0dip"
+        android:layout_height="65.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4.0dip"
+        android:src="@drawable/default_thumbnail" />
+<!--    <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dip"
+            android:layout_marginLeft="30.0dip"
+            android:background="@drawable/play"
+            android:tag="播放" /> -->
+    <LinearLayout
+        android:id="@+id/linearLayProcess"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:layout_below="@id/relaLayTitle"
+        android:layout_toRightOf="@id/upload_photo_image"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="10dip"
+        android:gravity="right|center"
+        android:orientation="horizontal" >
+        <ProgressBar
+            android:id="@+id/ProgressBarDown"
+            style="?android:progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="15.0dip"
+            android:max="100"
+            android:maxHeight="10.0dip"
+            android:minHeight="5.0dip"
+            android:progressDrawable="@drawable/progress_style_play" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relaLayControl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayProcess" 
+        >
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="52.0dip"
+            android:layout_height="24.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/preload_delete_bg" />
+        <Button
+            android:id="@+id/btnControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_toLeftOf="@id/btnDelete"
+            android:background="@drawable/preload_start_bg"
+            android:tag="开始" />
+        <TextView
+            android:id="@+id/lblPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btnControl"
+            android:layout_marginRight="10.0dip"
+            android:layout_centerVertical="true"
+             />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imgDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="3.0px"
+        android:layout_below="@id/relaLayControl"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/list_divider_line" />
+</RelativeLayout>

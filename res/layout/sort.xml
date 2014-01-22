@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_flipper01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    <!-- <RelativeLayout android:layout_width="fill_parent" android:id="@+id/titlebar"
+	    android:layout_height="47.0dip" android:layout_alignParentTop="true"
+	    android:gravity="center_vertical" android:background="@drawable/title_bar_bg"
+	>    
+	    <ImageButton android:id="@+id/imgbtnSearch" android:layout_width="38.0dip"
+        android:layout_height="39.0dip" android:layout_marginLeft="10.0dip"
+        android:background="@drawable/btn_search_bg" />
+    	<TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@+id/lblTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:text="播放次数排行"/>
+   	    <ImageButton android:id="@+id/imgbtnHistory" android:layout_width="43.0dip"
+        android:layout_height="39.0dip" android:layout_alignParentRight="true"
+        android:layout_marginRight="10.0dip" android:background="@drawable/btn_history_bg" />
+	</RelativeLayout> -->
+	<include android:id="@+id/titlebar" layout="@layout/titlebar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleBar" android:background="@drawable/loginbar_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/titlebar">
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnDianYing" android:background="@drawable/menu_bg" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="电影" android:layout_weight="1.0"  />
+        <ImageView android:id="@id/divider1" android:layout_width="2.0dip" android:layout_height="39.0dip" android:src="@drawable/dividerline" />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnShiShang" android:background="@drawable/menu_bg" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="时尚" android:layout_weight="1.0" android:layout_toRightOf="@id/divider1" />
+        <ImageView android:id="@id/divider2" android:layout_width="2.0dip" android:layout_height="39.0dip" android:src="@drawable/dividerline"  />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnTiYu" android:background="@drawable/menu_bg" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="体育" android:layout_weight="1.0" android:layout_toRightOf="@id/divider2" />
+        <ImageView android:id="@id/divider3" android:layout_width="2.0dip" android:layout_height="39.0dip" android:src="@drawable/dividerline"  />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnYuLe" android:background="@drawable/menu_bg" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="娱乐" android:layout_weight="1.0" android:layout_toRightOf="@id/divider3" />
+        <ImageView android:id="@id/divider4" android:layout_width="2.0dip" android:layout_height="39.0dip" android:src="@drawable/dividerline"  />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnXinWen" android:background="@drawable/menu_bg" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="新闻" android:layout_weight="1.0" android:layout_toRightOf="@id/divider4" />
+        <ImageView android:id="@id/divider5" android:layout_width="2.0dip" android:layout_height="39.0dip" android:src="@drawable/dividerline"  />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/btnDongMan" android:background="@drawable/menu_bg" android:layout_width="52.0dip" android:layout_height="40.0dip" android:text="动漫" android:layout_weight="1.0" android:layout_toRightOf="@id/divider5" />
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/sort_list_layout" android:orientation="vertical" android:layout_below="@id/titleBar" android:background="@drawable/big_bg" android:layout_above="@id/footbar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@+id/video_sort_list" android:layout_width="fill_parent" android:layout_height="fill_parent"  android:cacheColorHint="#00000000"/>
+     </RelativeLayout>
+       	<include
+            android:id="@id/footbar"
+            layout="@layout/toolbar"
+			android:layout_alignParentBottom="true">
+        </include>
+</RelativeLayout>

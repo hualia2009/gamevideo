@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/videolayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/group_bg"
+    android:gravity="center_vertical"
+    android:paddingTop="10.0dip" >
+    <ImageView
+        android:id="@+id/history_Thumb"
+        android:layout_width="80dip"
+        android:layout_height="65dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="4.0dip"
+        android:focusable="false"
+        android:maxWidth="80dip"
+        android:src="@drawable/default_thumbnail" />
+    <CheckBox
+        android:id="@+id/mCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:layout_marginLeft="5.0dip"
+        android:button="@drawable/check"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/lblVideoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4.0dip"
+        android:layout_toLeftOf="@id/mCheckBox"
+        android:layout_toRightOf="@id/history_Thumb"
+        android:lines="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/color_title"
+        android:textSize="14dip" />
+    <TextView
+        android:id="@+id/lblHistoryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lblVideoName"
+        android:layout_below="@id/lblVideoName"
+        android:layout_marginTop="20dp"
+        android:lines="1"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textSize="12dp"
+        android:textColor="@color/color_duration" />
+    <TextView
+        android:id="@+id/history_playtimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblHistoryDate"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/lblVideoName"
+        android:layout_marginTop="20dp"
+        android:lines="1"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textSize="12dp"
+        android:textColor="@color/color_duration" />
+</RelativeLayout>

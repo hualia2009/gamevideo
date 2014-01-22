@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="big_bg">#ff1e1f21</item>
+    <item type="drawable" name="bgbitmap">#ff1e1f21</item>
+    <item type="drawable" name="transparent_background">#00000000</item>
+</resources>

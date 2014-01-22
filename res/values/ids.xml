@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="layoutToolbar">false</item>
+    <item type="id" name="detail_nplay">false</item>
+    <item type="id" name="videolayout">false</item>
+    <item type="id" name="relaLayTitle">false</item>
+    <item type="id" name="lblVideoName">false</item>
+    <item type="id" name="ProgressBarDown">false</item>
+    <item type="id" name="linearLayProcess">false</item>
+    <item type="id" name="linearLayProcessStatus">false</item>
+    <item type="id" name="lblPercent">false</item>
+    <item type="id" name="relaLayControl">false</item>
+    <item type="id" name="lblWeizhi">false</item>
+    <item type="id" name="lblStatus">false</item>
+    <item type="id" name="btnDelete">false</item>
+    <item type="id" name="btnPlay">false</item>
+    <item type="id" name="btnControl">false</item>
+    <item type="id" name="scrollView_new">false</item>
+    <item type="id" name="LinearLayList">false</item>
+    <item type="id" name="footbar">false</item>
+    <item type="id" name="lblShengYu">false</item>
+    <item type="id" name="imgbtnSet">false</item>
+    <item type="id" name="divider1">false</item>
+    <item type="id" name="divider2">false</item>
+    <item type="id" name="divider3">false</item>
+    <item type="id" name="divider4">false</item>
+    <item type="id" name="divider5">false</item>
+    <item type="id" name="titleBar">false</item>
+    <item type="id" name="titlebar">false</item>
+    <item type="id" name="relative_video_list_layout">false</item>
+    <item type="id" name="toolbar">false</item>
+    
+    <item type="id" name="btnAboutUs">false</item>
+    <item type="id" name="btnShoucang">false</item>
+    <item type="id" name="btnFankui">false</item>
+    
+    <item type="id" name="relaActiveBar">false</item>
+    <item type="id" name="imgActiveZuixin">false</item>
+    <item type="id" name="imgActiveHot">false</item>
+    <item type="id" name="imgActiveScore">false</item>
+    <item type="id" name="imgLineRed">false</item>
+    
+    <item type="id" name="hotkeyLine">false</item>
+    <item type="id" name="gridView">false</item>
+    <item type="id" name="LinearLayListRank">false</item>
+    <item type="id" name="total_txt_search">false</item>
+    <item type="id" name="hotkey_layout">false</item>
+    <item type="id" name="hotkey_textView">false</item>
+    
+    <item type="id" name="uploadVideoButton">false</item>
+    <item type="id" name="uploadVideoEditButton">false</item>
+    <item type="id" name="video_space_text">false</item>
+    <item type="id" name="local_upload_text">false</item>
+    <item type="id" name="userspace_indicate_image">false</item>
+    <item type="id" name="upload_indicate_image">false</item>
+    <item type="id" name="upload_listview">false</item>
+    <item type="id" name="upload_no_data_layout">false</item>
+    <item type="id" name="uploaddiloag_shoot_video">false</item>
+    <item type="id" name="uploaddiloag_local_video">false</item>
+    <item type="id" name="uploadinfo_image">false</item>
+    <item type="id" name="uploadinfo_length_text">false</item>
+    <item type="id" name="uploadinfo_title_edit">false</item>
+    <item type="id" name="uploadinfo_info_edit">false</item>
+    <item type="id" name="uploadinfo_category_spinner">false</item>
+    <item type="id" name="upload_accept_checkbox">false</item>
+    <item type="id" name="upload_agreement_textview">false</item>
+    <item type="id" name="uploadinfo_sumit_button">false</item>
+    <item type="id" name="upload_item_layout">false</item>
+    <item type="id" name="upload_photo_image">false</item>
+    <item type="id" name="upload_title_textview">false</item>
+    <item type="id" name="upload_progressbar">false</item>
+    <item type="id" name="upload_length_textview">false</item>
+    <item type="id" name="upload_share_textview">false</item>
+    <item type="id" name="upload_speed_textview">false</item>
+    <item type="id" name="upload_control_image">false</item>
+    <item type="id" name="upload_delete_checkbox">false</item>
+</resources>

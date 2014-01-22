@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:fadeScrollbars="true" 
+    android:background="@drawable/group_bg">
+
+    <ImageView
+        android:id="@+id/ImageViewThumb"
+        android:layout_width="80dip"
+        android:layout_height="65dip"
+        android:focusable="false"
+        android:maxWidth="80dip"
+        android:layout_margin="4.0dip"
+        android:layout_centerVertical="true"
+        android:src="@drawable/default_thumbnail" 
+        android:paddingTop="2.5dip"
+        android:paddingBottom="2.5dip">
+    </ImageView>
+    <TextView
+        android:id="@+id/TextTitle"
+        android:layout_width="220dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="96dip"
+        android:layout_marginTop="4dip"
+        android:focusable="false"
+        android:singleLine="true"
+        android:text="@string/loading"
+        android:textColor="@color/color_title"
+        android:textSize="14dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="96dip"
+        android:layout_marginTop="45dip"
+        android:focusable="false"
+        android:textColor="@color/color_duration"
+        android:textSize="12dip" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/TextData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="166dip"
+        android:layout_marginTop="45dip"
+        android:focusable="false"
+        android:textColor="@color/color_statistic"
+        android:textSize="12dip" >
+    </TextView>
+
+  <!--   <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/arrow1_bg"
+        android:clickable="true"
+        android:focusable="false"
+         >
+    </Button> -->
+<ImageView android:id="@+id/imgDivider2" android:background="@drawable/list_divider_line" android:layout_width="fill_parent" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

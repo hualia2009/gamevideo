@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="menuitem" name="about">false</item>
+    <item type="menuitem" name="checkupdate">false</item>
+    <item type="menuitem" name="cancel">false</item>
+</resources>

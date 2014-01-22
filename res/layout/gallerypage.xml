@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="160dip" 
+    android:id="@+id/gallery_layout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="160.0dip"
+        android:id="@+id/home_gallery"
+        android:background="#ff000000"
+        android:gravity="center" >
+	    <com.leslie.gamevideo.banner.GalleryFlow
+	        android:id="@+id/gallery"
+	        android:layout_width="fill_parent"
+	        android:layout_height="160dip"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:unselectedAlpha="1" >
+	    </com.leslie.gamevideo.banner.GalleryFlow>
+     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gallery_point_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/home_gallery"
+        android:gravity="center"
+        android:orientation="vertical" 
+        android:background="@drawable/nav_bar">
+
+        <TextView
+            android:id="@+id/bannerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/color_title"
+            android:textSize="14dip" />
+        <LinearLayout
+            android:id="@+id/gallery_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

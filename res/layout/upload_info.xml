@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="true" 
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_bg"
+            android:gravity="center"
+            android:text="@string/editUpload"
+            android:textColor="@color/white"
+            android:textSize="20.0sp" />
+
+        <ImageView
+            android:id="@id/uploadinfo_image"
+            android:layout_width="120.0dip"
+            android:layout_height="90.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginTop="20.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_thumbnail" />
+        <!-- <TextView android:layout_gravity="center_horizontal" android:id="@id/uploadinfo_length_text" android:layout_width="wrap_content" android:layout_height="wrap_content" /> -->
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginBottom="30.0dip"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/list_divider_line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textColor="@color/white"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/uploadinfo_title_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/white"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@id/uploadinfo_info_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+        <!--
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category" />
+            <Spinner android:id="@id/uploadinfo_category_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <CheckBox android:textSize="15.0sp" android:id="@id/upload_accept_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload_accept" style="@style/CheckBoxStyle" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/red" android:layout_gravity="center_vertical" android:id="@id/upload_agreement_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload_agreement" />
+        </LinearLayout>
+        -->
+
+        <Button
+            android:id="@id/uploadinfo_sumit_button"
+            android:layout_width="203.0dip"
+            android:layout_height="36.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30.0dip"
+            android:background="@drawable/btn_red_long_bg"
+            android:gravity="center"
+            android:text="@string/issue"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+</ScrollView>
