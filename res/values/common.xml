@@ -7,7 +7,6 @@
 	<style name="new_stack">
 		<item name="android:windowNoTitle">true</item>
 		<item name="android:allowTaskReparenting">true</item>
-		<item name="android:launchMode">singleTask</item>
 		<item name="android:configChanges">orientation|navigation|keyboardHidden</item>
 	</style>
 </resources>
