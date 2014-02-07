@@ -111,7 +111,6 @@ public class AppDetail {
 			}
 			
 		} catch (Exception e) {
-			e.printStackTrace();
 			AppConnect.getInstance(context).clickAd(context, adInfo.getAdId());
 		}
     }

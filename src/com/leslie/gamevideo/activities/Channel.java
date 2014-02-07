@@ -93,7 +93,7 @@ public class Channel extends Activity {
 	 */
 	private void setBtnParams(Button button) {
 		LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-				LayoutParams.WRAP_CONTENT, LayoutParams.FILL_PARENT);
+				LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT);
 		params.gravity = Gravity.CENTER;
 		button.setLayoutParams(params);
 		button.setTextSize(14);
@@ -228,15 +228,9 @@ public class Channel extends Activity {
 			channelListLayout.removeAllViews();
 			channelListLayout.addView(netLoading,Utils.getRelativeLayoutParams());
 			Activity activity = Channel.this;
-			if(view.getId() == R.id.btnZuixin){
-				setSortBtnSelected(activity, R.id.btnZuixin);
-			}else if(view.getId() == R.id.btnHot){
-				setSortBtnSelected(activity, R.id.btnHot);
-			}else{
-				channelStr = (String) view.getTag();
-				Log.i("view.getId()",""+view.getId());
-				setSelected(activity,view.getId());
-			}
+			channelStr = (String) view.getTag();
+			Log.i("view.getId()",""+view.getId());
+			setSelected(activity,view.getId());
 			pageNum = 1;
 			ThreadPoolWrap.getThreadPool().executeTask(new MyThread());
 		}
@@ -285,27 +279,6 @@ public class Channel extends Activity {
 				activity.findViewById(i).setSelected(false);
 			}
 			activity.findViewById(id).setSelected(true);
-		}
-
-		private void setSortBtnSelected(Activity activity, int id) {
-			ImageView imgActiveZuixin = (ImageView) activity
-					.findViewById(R.id.imgActiveZuixin);
-			ImageView imgActiveHot = (ImageView) activity
-					.findViewById(R.id.imgActiveHot);
-//			switch (id) {
-//			case R.id.btnZuixin:
-//				btnZuiXin.setSelected(true);
-//				btnHot.setSelected(false);
-//				imgActiveZuixin.setVisibility(View.VISIBLE);
-//				imgActiveHot.setVisibility(View.GONE);
-//				break;
-//			case R.id.btnHot:
-//				btnZuiXin.setSelected(false);
-//				btnHot.setSelected(true);
-//				imgActiveZuixin.setVisibility(View.GONE);
-//				imgActiveHot.setVisibility(View.VISIBLE);
-//				break;
-//			}
 		}
 
 		public void onScroll(AbsListView view, int firstVisibleItem,

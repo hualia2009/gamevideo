@@ -156,7 +156,6 @@ public class Main extends Activity implements OnScrollListener {
 	 * 动态添加标签
 	 */
 	private void addChannelTags() {
-		MainTabsActivity.is_ad_on = AppConnect.getInstance(this).getConfig("is_ad_on","");
 		Channel.channels.add(AppConnect.getInstance(this).getConfig("channel1", "DOTA"));
 		Channel.channels.add(AppConnect.getInstance(this).getConfig("channel2", "DOTA2"));
 		Channel.channels.add(AppConnect.getInstance(this).getConfig("channel3", "LOL"));

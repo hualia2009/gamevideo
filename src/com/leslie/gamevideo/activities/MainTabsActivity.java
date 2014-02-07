@@ -12,6 +12,8 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -35,12 +37,17 @@ public class MainTabsActivity extends TabActivity implements
 	private Intent searchIntent;
 	private Intent downloadIntent;
 	private Intent moreIntent;
+	private RadioButton recommend_ad;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_tabs);
 		LogoActivity.activities.add(MainTabsActivity.this);
+		recommend_ad = (RadioButton) findViewById(R.id.recommend_ad);
+		if(!MainTabsActivity.is_ad_on.equalsIgnoreCase("0")){
+			recommend_ad.setVisibility(View.VISIBLE);
+		}
 		tabHost = getTabHost();
 
 		Config.flag = "main";

@@ -43,10 +43,12 @@
 				android:drawableTop="@drawable/icon_search_bg"
 				style="@style/t_main_tab_bottom" />
 			<RadioButton
+			    android:id="@+id/recommend_ad"
 				android:tag="radio_button3"
 				android:text="@string/downloadwatch"
 				android:drawableTop="@drawable/icon_download_bg"
-				style="@style/t_main_tab_bottom" />
+				style="@style/t_main_tab_bottom"
+				android:visibility="gone" />
 			<RadioButton
 				android:tag="radio_button4"
 				android:text="@string/more"

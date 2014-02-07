@@ -1,5 +1,7 @@
 package com.leslie.gamevideo.activities;
 
+import io.vov.vitamio.utils.Log;
+
 import java.util.ArrayList;
 
 import android.app.Activity;
@@ -24,6 +26,9 @@ public class LogoActivity extends Activity {
 		setContentView(R.layout.welcome);
 		//万普广告平台
 		AppConnect.getInstance(this);
+		
+		MainTabsActivity.is_ad_on = AppConnect.getInstance(this).getConfig("is_ad_on","0").trim();
+		Log.i("is_ad_on", "!!!"+MainTabsActivity.is_ad_on);
 		
 		activities.add(LogoActivity.this);
 
